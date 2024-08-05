@@ -1,8 +1,8 @@
-# ![TOAST UI Editor](https://uicdn.toast.com/toastui/img/tui-editor-bi.png)
+# ![TOAST UI Editor](https://github.com/user-attachments/assets/1b90f5db-bd15-409f-aa60-4ae742a669e3)
 
-> GFM  Markdown and WYSIWYG Editor - Productive and Extensible
+> The portable Open-Source sample player/drum pads based on Atmega328 
 
-[![github release version](https://img.shields.io/github/v/release/nhn/tui.editor.svg?include_prereleases)](https://github.com/nhn/tui.editor/releases/latest) [![npm version](https://img.shields.io/npm/v/@toast-ui/editor.svg)](https://www.npmjs.com/package/@toast-ui/editor) [![license](https://img.shields.io/github/license/justanormalmaker/OPENDRUMS.svg)](https://github.com/justanormalmaker/OPENDRUMS/blob/master/LICENSE) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/nhn/tui.editor/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) [![code with hearth by JANM](https://img.shields.io/badge/Made_with%20%E2%99%A5%20by-JANM-ff1414.svg)](https://github.com/justanormalmaker)
+[![code with hearth by JANM](https://img.shields.io/badge/Made_with%20%E2%99%A5%20by-JANM-ff1414.svg)](https://github.com/justanormalmaker) [![Version](https://img.shields.io/badge/Version-0.1-8a2be2.svg)](https://github.com/justanormalmaker) [![license](https://img.shields.io/github/license/justanormalmaker/OPENDRUMS.svg)](https://github.com/justanormalmaker/OPENDRUMS/blob/master/LICENSE) [![welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/nhn/tui.editor/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
 
 <img src="https://user-images.githubusercontent.com/37766175/121809054-446bac80-cc96-11eb-9139-08c6d9ad2d88.png" />
 
