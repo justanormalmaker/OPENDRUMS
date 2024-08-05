@@ -2,7 +2,7 @@
 
 > The portable Open-Source sample player/drum pads based on Atmega328 
 
-[![code with hearth by JANM](https://img.shields.io/badge/Made_with%20%E2%99%A5%20by-JANM-ff1414.svg)](https://github.com/justanormalmaker) [![Hardware Version](https://img.shields.io/badge/Hardware-v0.1-00808f.svg)](https://github.com/justanormalmaker) [![Software Version](https://img.shields.io/badge/Software-v0.1-8a2be2.svg)](https://github.com/justanormalmaker) [![license](https://img.shields.io/github/license/justanormalmaker/OPENDRUMS.svg)](https://github.com/justanormalmaker/OPENDRUMS/blob/master/LICENSE) [![welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg)](https://github.com/nhn/tui.editor/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+[![code with hearth by JANM](https://img.shields.io/badge/Made_with%20%E2%99%A5%20by-JANM-ff1414.svg)](https://github.com/justanormalmaker) [![Hardware Version](https://img.shields.io/badge/Hardware-v0.1-00808f.svg)](https://github.com/justanormalmaker) [![Software Version](https://img.shields.io/badge/Software-v0.1-8a2be2.svg)](https://github.com/justanormalmaker) [![license](https://img.shields.io/github/license/justanormalmaker/OPENDRUMS.svg)](https://github.com/justanormalmaker/OPENDRUMS/blob/master/LICENSE) [![Instagram](https://img.shields.io/badge/Instagram-@justanormalmaker-dd2a7b.svg)](https://www.instagram.com/justanormalmaker?igsh=NWh5ZW92dXE0NHJm)
 
 <img src="https://github.com/user-attachments/assets/1c9d951d-ce22-44c8-91ee-80ba1963ba81" />
 
