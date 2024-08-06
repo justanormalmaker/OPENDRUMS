@@ -9,8 +9,8 @@
 
 ## 🚩 Table of Contents
 
-- [Packages](#-packages)
-- [Why TOAST UI Editor?](#-why-toast-ui-editor)
+- [About](#-about)
+- [Why OPENDRUMS?](#-why-toast-ui-editor)
 - [Features](#-features)
 - [Examples](#-examples)
 - [Browser Support](#-browser-support)
@@ -21,12 +21,14 @@
 - [License](#-license)
 
 
-## 📦 About
+## 🚀 About
 
-OPENDRUMS is an elecronic instrument similar to a sample player or a drum pads machine, but with the particularity of being small, portable and Open-Source!
-OPENDRUMS is based on the Atmega328p microprocessor, and you can built it yourself with a few components, its PCB, and a soldering iron. 
+**OPENDRUMS** is an elecronic instrument similar to a **sample player or a drum pads machine**, but with the particularity of being small, portable and **Open-Source**!
+When i (@justanormalmaker) thought of OPENDRUMS I wanted to create a relatively "simple" but at the same time cool and useful Hardware/Software project that anyone could create with a few components, a PCB, and a soldering iron. Its a good project for people that like to **create music**, like me :), and for anyone else that want to build a cool project and **learn something new**!
+You can build OPENDRUMS with **60 components** and easly programm its **Atmega328p microprocessor** with an Arduino Uno board and **Arduino IDE**. You can use the instrument to play drums or any type of samples wherever and whenever you like thanks to its **9 progammable button** that act like pads, **rechargeable battery**, and **compact size** (100mm x 90mm). For more information about the Hardware and Software go to 
 
-## 🤖 Why TOAST UI Editor?
+
+## 🤖 Why OPENDRUMS?
 
 TOAST UI Editor provides **Markdown mode** and **WYSIWYG mode**. Depending on the type of use you want like production of *Markdown* or maybe to just edit the *Markdown*. The TOAST UI Editor can be helpful for both the usage. It offers **Markdown mode** and **WYSIWYG mode**, which can be switched any point in time.
 
@@ -75,10 +77,13 @@ You can merge columns of the table header and body area.
 
 ## 🎨 Features
 
-* [Viewer](https://github.com/nhn/tui.editor/tree/master/docs/en/viewer.md) : Supports a mode to display only markdown data without an editing area.
-* [Internationalization (i18n)](https://github.com/nhn/tui.editor/tree/master/docs/en/i18n.md) : Supports English, Dutch, Korean, Japanese, Chinese, Spanish, German, Russian, French, Ukrainian, Turkish, Finnish, Czech, Arabic, Polish, Galician, Swedish, Italian, Norwegian, Croatian + language and you can extend.
-* [Widget](https://github.com/nhn/tui.editor/tree/master/docs/en/widget.md) : This feature allows you to configure the rules that replaces the string matching to a specific `RegExp` with the widget node.
-* [Custom Block](https://github.com/nhn/tui.editor/tree/master/docs/en/custom-block.md) : Nodes not supported by Markdown can be defined through custom block. You can display the node what you want through writing the parsing logic with custom block.
+* **Compact size** - *100x90 mm* or *3,94x3,54 in*
+* **9 progammable button** - *Buttons that can be programmed to play any sample*
+* **OLED screen** - *For programming the button*
+* **Integrated speaker**
+* **3.5mm headphones jack**
+* **Rechargeable battery**
+* **USB-C charging port**
 
 ## 🐾 Examples
 
