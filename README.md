@@ -10,9 +10,9 @@
 ## 🚩 Table of Contents
 
 - [About](#-about)
-- [Why OPENDRUMS?](#-why-toast-ui-editor)
+- [Why OPENDRUMS?](#-why-opendrums)
 - [Features](#-features)
-- [Examples](#-examples)
+- [Hardware](#-hardware)
 - [Browser Support](#-browser-support)
 - [Pull Request Steps](#-pull-request-steps)
 - [Contributing](#-contributing)
@@ -28,7 +28,7 @@ When i ( [@justanormalmaker](https://github.com/justanormalmaker) ) thought of O
 You can build OPENDRUMS with **60 components** and easly programm its **Atmega328p microprocessor** with an Arduino Uno board and **Arduino IDE**. You can use the instrument to play drums or any type of samples wherever and whenever you like thanks to its **9 progammable button** that act like pads, **rechargeable battery**, and **compact size** (100mm x 90mm). For more information about the Hardware and Software go to 
 
 
-## 🤖 Why OPENDRUMS?
+## 🥁 Why OPENDRUMS?
 
 Because it's **Open-Source** and **Built with love**! You want to just build the 0.1v of the project, you can! You want to create your custom OPENDRUMS variation, or you want to improve OPENDRUMS and help me create the 1.0v, you can! You want to create a better code for the project, a better design, you want to add more buttons, more leds... you can! All the original code, circuit schematic and PCB desing are avilable for yo,u to just build OPENDRUMS 0.1, or to customaize everything! You decide!
 
@@ -42,17 +42,37 @@ Because it's **Open-Source** and **Built with love**! You want to just build the
 * **Rechargeable battery**
 * **USB-C charging port**
 
-## 🐾 Examples
+## 💡 Hardware
 
-* [Basic](https://nhn.github.io/tui.editor/latest/tutorial-example01-editor-basic)
-* [Viewer](https://nhn.github.io/tui.editor/latest/tutorial-example04-viewer)
-* [Using All Plugins](https://nhn.github.io/tui.editor/latest/tutorial-example12-editor-with-all-plugins)
-* [Creating the User's Plugin](https://nhn.github.io/tui.editor/latest/tutorial-example13-creating-plugin)
-* [Customizing the Toobar Buttons](https://nhn.github.io/tui.editor/latest/tutorial-example15-customizing-toolbar-buttons)
-* [Internationalization (i18n)](https://nhn.github.io/tui.editor/latest/tutorial-example16-i18n)
+### Component list
 
-Here are more [examples](https://nhn.github.io/tui.editor/latest/tutorial-example01-editor-basic) and play with TOAST UI Editor!
-
+* **11**  12*12mm push buttons
+* **1**  6*6mm push button
+* **2**  ON/OFF slider swiches
+* **10**  blu 5mm LEDs
+* **1**  green 5mm LED
+* **1**  red 5mm LED
+* **12**  1k 1/4W resistors
+* **1**  10k 1/4W resistor
+* **1**  220 1/4W resistor
+* **1**  50k potentiometer
+* **2**  22pf ceramic capacitors
+* **2**  10uf electrolytic capacitors
+* **1**  1uf ceramic capacitor
+* **1**  100nf ceramic capacitor
+* **1**  470uf electrolytic capacitor
+* **1**  16MHz quartz crystal
+* **1**  33uH SMD inductor
+* **1**  SS24 SMD diode
+* **1**  3.5mm headphones jack
+* **1**  4ohm speaker
+* **1**  DFPlayerMini
+* **1**  128*64 0.96" I2C OLED display
+* **1**  USB-C 6pin charging port
+* **1**  4pins male header row
+* **1**  JST 2mm connector
+* **1**  AP5900 battery charger/bust converter IC (SOP-8 package)
+* **1**  Atmega328p-pu microcontroller
 
 ## 🌏 Browser Support
 
