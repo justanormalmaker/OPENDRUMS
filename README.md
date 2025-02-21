@@ -151,5 +151,5 @@ For more information on PR's steps, please see links in the Contributing section
 
 ## 📜 License
 
-This software is licensed under the [MIT](https://github.com/nhn/tui.editor/blob/master/LICENSE) © [NHN Cloud](https://github.com/nhn).
+This software is licensed under the [MIT](https://github.com/justanormalmaker/OPENDRUMS/blob/main/LICENSE) © [JustANormalMaker](https://github.com/justanormalmaker).
 
