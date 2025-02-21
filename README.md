@@ -24,23 +24,23 @@
 ## 🚀 About
 
 **OPENDRUMS** is an elecronic instrument similar to a **sample player or a drum pads machine**, but with the particularity of being small, portable and **Open-Source**!
-When i ( [@justanormalmaker](https://github.com/justanormalmaker) ) thought of OPENDRUMS I wanted to create a relatively "simple" but at the same time cool and useful Hardware/Software project that anyone could create with a few components, a PCB, and a soldering iron. Its a good project for people that like to **create music**, like me :), and for anyone else that want to build a cool project and **learn something new**!
-You can build OPENDRUMS with **60 components** and easly programm its **Atmega328p microprocessor** with an Arduino Uno board and **Arduino IDE**. You can use the instrument to play drums or any type of samples wherever and whenever you like thanks to its **9 progammable button** that act like pads, **rechargeable battery**, and **compact size** (100mm x 90mm). For more information about the Hardware and Software go to 
+When i ( [@justanormalmaker](https://github.com/justanormalmaker) ) thought of OPENDRUMS I wanted to create a relatively "simple" but at the same time cool and useful Hardware/Software project that anyone could create with a few components, a PCB, and a soldering iron. Its a good project for people that like to **create music**, like me :), and for anyone else that want to build a cool project and **learn something new**! The aim of this project is to bring music lovers closer to electronics and vice versa, leaving aside the boring theory and experimenting directly with something concrete and fun.
+You can build OPENDRUMS with **60 components** and an Arduino Nano board. You can use the instrument to play drums or any type of samples wherever and whenever you like thanks to its **9 progammable buttons** that act like pads, **rechargeable battery**, and **compact size**. For more information about the Hardware and Software go to 
 
 
 ## 🥁 Why OPENDRUMS?
 
-Because it's **Open-Source** and **Built with love**! You want to just build the 0.1v of the project, you can! You want to create your custom OPENDRUMS variation, or you want to improve OPENDRUMS and help me create the 1.0v, you can! You want to create a better code for the project, a better design, you want to add more buttons, more leds... you can! All the original code, circuit schematic and PCB desing are avilable for yo,u to just build OPENDRUMS 0.1, or to customaize everything! You decide!
+Because it's **Open-Source** and **Built with love**! You want to just build the 0.1v of the project, you can! You want to create your custom OPENDRUMS variation, or you want to improve OPENDRUMS and help me create the 1.0v, you can! You want to create a better code for the project, a better design, you want to add more buttons, more leds... you can! All the original code, circuit schematic and PCB desing are avilable for you, to just build OPENDRUMS 0.1, or to customaize everything! You decide!
 
 ## 🎨 Features
 
 * **Compact size** - *100x90 mm* or *3,94x3,54 in*
-* **9 progammable button** - *Buttons that can be programmed to play any sample*
+* **9 progammable buttons** - *Buttons that can be programmed to play any sample*
 * **OLED screen** - *For programming the button*
 * **Integrated speaker**
 * **3.5mm headphones jack**
 * **Rechargeable battery**
-* **USB-C charging port**
+* **USB-C charging port** *(depends on the arduino board used)*
 
 ## 💡 Hardware
 
@@ -48,31 +48,27 @@ Because it's **Open-Source** and **Built with love**! You want to just build the
 
 * **11**  12*12mm push buttons
 * **1**  6*6mm push button
-* **2**  ON/OFF slider swiches
-* **10**  blu 5mm LEDs
+* **2**  ON/OFF slider swiches DPDT
+* **10**  blue 5mm LEDs
 * **1**  green 5mm LED
 * **1**  red 5mm LED
 * **12**  1k 1/4W resistors
 * **1**  10k 1/4W resistor
 * **1**  220 1/4W resistor
 * **1**  50k potentiometer
-* **2**  22pf ceramic capacitors
 * **2**  10uf electrolytic capacitors
 * **1**  1uf ceramic capacitor
 * **1**  100nf ceramic capacitor
 * **1**  470uf electrolytic capacitor
-* **1**  16MHz quartz crystal
-* **1**  33uH SMD inductor
+* **1**  33uH SMD inductor coil
 * **1**  SS24 SMD diode
 * **1**  3.5mm headphones jack
 * **1**  4ohm speaker
-* **1**  DFPlayerMini
+* **1**  DFPlayerMini module
 * **1**  128*64 0.96" I2C OLED display
-* **1**  USB-C 6pin charging port
-* **1**  4pins male header row
 * **1**  JST 2mm connector
 * **1**  AP5900 battery charger/bust converter IC (SOP-8 package)
-* **1**  Atmega328p-pu microcontroller
+* **1**  Arduino nano (I used an amazon clone with an USB-C port)
 
 ### PCB and circuit schematics
 
