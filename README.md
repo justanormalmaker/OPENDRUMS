@@ -72,6 +72,15 @@ Because it's **Open-Source** and **Built with love**! You want to just build the
 
 ### PCB and circuit schematics
 
+You can find everything, incluse the schematic and the gerber file in the repo's files. But for contest this is the circuit schematic:
+
+In the schematic we found the arduino nano, the buttons grid, the two buttons for programming, the DFPlayermini circuit, the battery charger/bust converter circuit, and the OLED display.
+
+The Arduino is the brain of the board. It comunicates with all the buttons, the DFplayer, the battery circuit, an the OLED.
+* **Buttons grid** - Every button of the grid is connected to a digital I/O (Input/output) pin of the Arduino, setted as INPUT, and its also connected to ground (GND) and to the nagative terminal of an LED that is then connected to 5V. When the button is pressed it completes the circuit and connects the arduino pin, and the negative terminal of the LED to GND. The LED lights up and the Arduino feels the change in the state of the pin connected to the button.
+* **Buttons for programming** - Same thing for this buttons but this time we have only an LED connected indipendently to GND and to a digital I/O pin, setted as OUTPUT, by the positive terminal.
+* **DFPlayerMini** - This module has the function of reading and playing the audio file from an SD card. Its connected to GND and 5V trough a series of capacitors, that have the function of improving the general audio quality of the module by removing the interference caused by other components. It comunicates with arduino using  
+
 ## 🌏 Browser Support
 
 | <img src="https://user-images.githubusercontent.com/1215767/34348387-a2e64588-ea4d-11e7-8267-a43365103afe.png" alt="Chrome" width="16px" height="16px" /> Chrome | <img src="https://user-images.githubusercontent.com/1215767/34348590-250b3ca2-ea4f-11e7-9efb-da953359321f.png" alt="IE" width="16px" height="16px" /> Internet Explorer | <img src="https://user-images.githubusercontent.com/1215767/34348380-93e77ae8-ea4d-11e7-8696-9a989ddbbbf5.png" alt="Edge" width="16px" height="16px" /> Edge | <img src="https://user-images.githubusercontent.com/1215767/34348394-a981f892-ea4d-11e7-9156-d128d58386b9.png" alt="Safari" width="16px" height="16px" /> Safari | <img src="https://user-images.githubusercontent.com/1215767/34348383-9e7ed492-ea4d-11e7-910c-03b39d52f496.png" alt="Firefox" width="16px" height="16px" /> Firefox |
