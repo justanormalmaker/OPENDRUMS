@@ -76,13 +76,15 @@ You can find everything, incluse the schematic and the gerber file in the repo's
 
 In the schematic we found the arduino nano, the buttons grid, the two buttons for programming, the volume potentiometer, LED indicators, the DFPlayermini circuit, the battery charger/boost converter circuit, and the OLED display.
 
-The battery charger/boost converter circuit is what gives 5V power to the board and allow to charge a 3.7V LiPo (Lithium Polymer battery). The circuit is based on the AP5900 IC, a chinese chip used in power-banks and similar products. This specific IC requires little additional components to work (Some capacitors, an inductor coil, a diode, and an LED) and does the work of 3 ICs in 1.
+The battery charger/boost converter circuit is what gives stable 5V power to the board and allow to charge a 3.7V LiPo (Lithium Polymer battery). The circuit is based on the AP5900 IC, a chinese chip used in power-banks and similar products. This specific IC requires little additional components to work (Some capacitors, an inductor coil, a diode, and an LED) and does the work of 3 ICs in 1. This circuit is connected directly to the 5V pin of the arduino through a switch that allows you to choose between OFF/Charge and ON mode:
+* **ON Mode** - The board is powered by the battery. YOU MUST DISCONNECT THE ARDUINO FROM ANY COMPUTER OR USB BEFORE TURNING TO ON MODE.
+* **OFF/Charging Mode** - The board can be powered by the arduino USB connector. If power is given (using arduino USB connector) the battery will charge.
 
-The Arduino is the brain of the board. It comunicates with all the buttons, the DFplayer, the battery circuit, an the OLED.
+The Arduino is the brain of the board. It comunicates with all the buttons, the DFplayer, an the OLED.
 * **Buttons grid** - Every button of the grid is connected to a digital I/O (Input/output) pin of the Arduino, setted as INPUT, and its also connected to ground (GND) and to the nagative terminal of an LED that is then connected to 5V. Every LED is connected in series with a 220ohm resistor. When the button is pressed it completes the circuit and connects the arduino pin, and the negative terminal of the LED to GND. The LED lights up and the Arduino feels the change in the state of the pin connected to the button.
-* **Buttons for programming** - Same thing for this buttons but this time we have only an LED connected indipendently to GND and to a digital I/O pin, setted as OUTPUT, by the positive terminal.
+* **Buttons for programming/LED indicator** - Same thing for this buttons but this time we have only an LED connected indipendently to GND and to the digital pin 13, setted as OUTPUT, by the positive terminal.
 * **DFPlayerMini** - This module has the function of reading and playing the audio file from an SD card. Its connected to GND and 5V trough a series of capacitors, that have the function of improving the general audio quality of the module by removing the electrical interference caused by other components. It comunicates with arduino using the UART (Universal Asynchronous Receiver-Transmitter) protocol using the digital pin 5 and pin 6. It's also connected to a 4ohm speaker with a slider switch (used to turn it ON and OFF) and a 3.5mm headphones jack.
-* **Battery charger/boost converter circuit
+
 
 ## 🌏 Browser Support
 
