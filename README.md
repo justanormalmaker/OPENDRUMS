@@ -87,6 +87,8 @@ The **Arduino** is the brain of the board. It comunicates with all the buttons, 
 * **DFPlayerMini** - This module has the function of **reading and playing the audio file from an SD card**. Its connected to **GND and 5V trough a series of capacitors**, that have the function of improving the general audio quality of the module by removing the **electrical interference** caused by other components. It comunicates with arduino using the **UART (Universal Asynchronous Receiver-Transmitter) protocol** using the digital **pin 5 and pin 6**. It's also connected to a **4ohm speaker** with a slider switch (used to turn it ON and OFF) and a **3.5mm headphones jack**.
 * **OLED display** - The display comunicates with arduino using the **I2C protocol**. It comunicates using **analog pin 4 (SDA) and pin 5 (SCK)** of the arduino and it also recives **5V power**.
 
+This all together makes up the OPENDRUMS circuit. All the connections between the various components are "enclosed" in a PCB (Printed Circuit Board) that makes the assembly of the project easy. You just have to find the necessary components and solder them in the right place! The circuit diagram and the PCB were made using a free online tool colled EasyEDA. 
+
 
 ## 🌏 Browser Support
 
