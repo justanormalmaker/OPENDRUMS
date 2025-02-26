@@ -1,5 +1,5 @@
-<img src="https://github.com/user-attachments/assets/1b90f5db-bd15-409f-aa60-4ae742a669e3" width="385px">
-
+<img src="https://github.com/user-attachments/assets/6913ead2-5862-47ee-b035-4ca4a0166c98" width="400px">
+     
 > The portable Open-Source sample player/drum pads based on Atmega328 
 
 [![code with hearth by JANM](https://img.shields.io/badge/Made_with%20%E2%99%A5%20by-JANM-ff1414.svg)](https://github.com/justanormalmaker) [![Hardware Version](https://img.shields.io/badge/Hardware-v0.1-00808f.svg)](https://github.com/justanormalmaker) [![Software Version](https://img.shields.io/badge/Software-v0.1-8a2be2.svg)](https://github.com/justanormalmaker) [![license](https://img.shields.io/github/license/justanormalmaker/OPENDRUMS.svg)](https://github.com/justanormalmaker/OPENDRUMS/blob/master/LICENSE) [![Instagram](https://img.shields.io/badge/Instagram-@justanormalmaker-dd2a7b.svg)](https://www.instagram.com/justanormalmaker?igsh=NWh5ZW92dXE0NHJm)
@@ -72,18 +72,20 @@ Because it's **Open-Source** and **Built with love**! You want to just build the
 
 ### PCB and circuit schematics
 
-You can find everything, incluse the schematic and the gerber file in the repo's files. But for contest this is the circuit schematic:
+You can find everything, incluse the **schematic and the gerber file** in the repo's files. But for contest this is the **circuit schematic**:
 
-In the schematic we found the arduino nano, the buttons grid, the two buttons for programming, the volume potentiometer, LED indicators, the DFPlayermini circuit, the battery charger/boost converter circuit, and the OLED display.
+In the schematic we found the **arduino nano, the buttons grid, the two buttons for programming, the volume potentiometer, LED indicators, the DFPlayermini circuit, the battery charger/boost converter circuit, and the OLED display**.
 
-The battery charger/boost converter circuit is what gives stable 5V power to the board and allow to charge a 3.7V LiPo (Lithium Polymer battery). The circuit is based on the AP5900 IC, a chinese chip used in power-banks and similar products. This specific IC requires little additional components to work (Some capacitors, an inductor coil, a diode, and an LED) and does the work of 3 ICs in 1. This circuit is connected directly to the 5V pin of the arduino through a switch that allows you to choose between OFF/Charge and ON mode:
+The **battery charger/boost converter circuit** is what gives stable **5V power** to the board and allow to charge a **3.7V LiPo (Lithium Polymer battery)**. The circuit is based on the **AP5900 IC**, a chinese chip used in power-banks and similar products. This specific IC requires little additional components to work **(Some capacitors, an inductor coil, a diode, and two LEDs)** and does the work of 3 ICs in 1. This circuit is connected directly to the 5V pin of the arduino through a **switch** that allows you to choose between **OFF/Charge and ON mode**:
 * **ON Mode** - The board is powered by the battery. YOU MUST DISCONNECT THE ARDUINO FROM ANY COMPUTER OR USB BEFORE TURNING TO ON MODE.
-* **OFF/Charging Mode** - The board can be powered by the arduino USB connector. If power is given (using arduino USB connector) the battery will charge.
+* **OFF/Charging Mode** - The board can be powered by the arduino USB connector. If power is given (using arduino's USB connector) the battery will charge.
 
-The Arduino is the brain of the board. It comunicates with all the buttons, the DFplayer, an the OLED.
-* **Buttons grid** - Every button of the grid is connected to a digital I/O (Input/output) pin of the Arduino, setted as INPUT, and its also connected to ground (GND) and to the nagative terminal of an LED that is then connected to 5V. Every LED is connected in series with a 220ohm resistor. When the button is pressed it completes the circuit and connects the arduino pin, and the negative terminal of the LED to GND. The LED lights up and the Arduino feels the change in the state of the pin connected to the button.
-* **Buttons for programming/LED indicator** - Same thing for this buttons but this time we have only an LED connected indipendently to GND and to the digital pin 13, setted as OUTPUT, by the positive terminal.
-* **DFPlayerMini** - This module has the function of reading and playing the audio file from an SD card. Its connected to GND and 5V trough a series of capacitors, that have the function of improving the general audio quality of the module by removing the electrical interference caused by other components. It comunicates with arduino using the UART (Universal Asynchronous Receiver-Transmitter) protocol using the digital pin 5 and pin 6. It's also connected to a 4ohm speaker with a slider switch (used to turn it ON and OFF) and a 3.5mm headphones jack.
+The **Arduino** is the brain of the board. It comunicates with all the buttons, the DFplayer, an the OLED.
+* **Buttons grid** - Every button of the grid is connected to a **digital I/O (Input/output) pin** of the Arduino, setted as **INPUT**, and its also connected to **ground (GND)** and to the nagative terminal of an **LED** that is then connected to **5V**. Every LED is connected in series with a 220ohm resistor. When the button is pressed **it completes the circuit** and connects the arduino pin (pulled UP to 5V), and the negative terminal of the LED to GND. **The LED lights up and the Arduino feels the change in the state of the pin connected to the button**.
+* **Buttons for programming/LED indicator** - Same thing for this buttons but this time we have only an LED connected **indipendently** to GND and to the **digital pin 13**, setted as **OUTPUT**, by the positive terminal.
+* **Volume potentiometer** - It's connected to the **analog pin 3**, of the arduino and obviously to **GND and 5V**.
+* **DFPlayerMini** - This module has the function of **reading and playing the audio file from an SD card**. Its connected to **GND and 5V trough a series of capacitors**, that have the function of improving the general audio quality of the module by removing the **electrical interference** caused by other components. It comunicates with arduino using the **UART (Universal Asynchronous Receiver-Transmitter) protocol** using the digital **pin 5 and pin 6**. It's also connected to a **4ohm speaker** with a slider switch (used to turn it ON and OFF) and a **3.5mm headphones jack**.
+* **OLED display** - The display comunicates with arduino using the **I2C protocol**. It comunicates using **analog pin 4 (SDA) and pin 5 (SCK)** of the arduino and it also recives **5V power**.
 
 
 ## 🌏 Browser Support
