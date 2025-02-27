@@ -52,11 +52,11 @@ Because it's **Open-Source** and **Built with love**! You want to just build the
 * **10**  blue 5mm LEDs ([Amazon link](https://www.amazon.it/Emissione-Luminosa-Assortimento-Incorniciato-Artigianale/dp/B0CXDS8LDL/ref=sr_1_5?__mk_it_IT=ÅMÅŽÕÑ&crid=3M4ISLTV3RW3G&dib=eyJ2IjoiMSJ9.fTo6QEjI7z7Uix_wxZd1rt453azWaQMOvlVGw5FEu81WY54QinfrAtpRCXgW9hJGdiGX8Cu20IiHUUN3ugZX5StIme1S5utcFiYWoxm7d2zbpiVQZqEVk6Uw2wPGs3BSgfVprPIvCvL0llVzEEVd2p3owQTMFlNdU5ISO9s9yj6eDBfRcUGjCp1hHor68b3ObUCS18Hcs-oOMXN8WpVMbE7gaTN9XXUqHiQAsxIWLoyE8RPyqlXj7FyEl4_aCXNquUc3PQRVBt71HAe47yNn0hRTnFmR3Z_LMNtgnD8J4onbone-LtDbTAAiZdcZxklvYwM9Uowbii3lmTx9OEC-OkuGyguQPFHgDcLZpyd_LEynTcha8EuzdbxQhQ-6-GOXQzXE65Q7GAMD1MlwO7nYPpojUjSnR8E3zEhor6N4YiIJXNG5r0tUIgFRqi1l65l0.OlKJAyDmSLPnohYcW7WazOnfsnAZFkXZYGP9XLI2c2g&dib_tag=se&keywords=led+arduino&qid=1740647820&sprefix=led+arduino%2Caps%2C159&sr=8-5))
 * **1**  green 5mm LED
 * **1**  red 5mm LED
-* **12**  1k 1/4W resistors 
+* **12**  1k 1/4W resistors ([Amazon link](https://www.amazon.it/BOJACK-valori-assortimento-resistori-carbonio/dp/B08FD1XVL6/ref=sr_1_1_sspa?__mk_it_IT=ÅMÅŽÕÑ&crid=29AG1U4051PI&dib=eyJ2IjoiMSJ9.PH1qx-HYshIwrIYD_f7AJHx5rd8jAZ8RpDegaWzjrLOeIeGCHtwbyWvuzu2IaDvXngz4nMESIbYHkg-pyd1f4MNJyr35iJWknUAYo8xeCVYe98Uz7MKrSegSXQJSo-q2FWci8VkkJyS7qfIh6gIF2tS1yfV-AilrIoW2PLM_w6VpQWdq-52s4LZcj4PCsWmlVvSQq_gQYlZEmO-xo5LjDIBGLEqGzw_9yCnRDhCaGIqLCKaVvs98aG2oZabX4HK404nCMN_8CE3LNST0CvhMeZWyZuFqAi5aqJrc-ejtHac.xyy5aWoRXSNbfkrVuvYc48VcW6ZgbG5iHhLqJjM1P9M&dib_tag=se&keywords=resistenze%2Barduino&qid=1740647964&sprefix=resistenze%2Barduino%2Caps%2C141&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1))
 * **1**  10k 1/4W resistor
 * **1**  220 1/4W resistor
-* **1**  50k potentiometer
-* **2**  10uf electrolytic capacitors
+* **1**  50k potentiometer ([Amazon link](https://www.amazon.it/TecnoStore®-POTENZIOMETRO-LINEARE-MONOGIRO-potentiometer/dp/B072JWNH3X/ref=sr_1_6?__mk_it_IT=ÅMÅŽÕÑ&crid=M12BQV1S7POT&dib=eyJ2IjoiMSJ9.79x5GRzZ_T4kl61UDK2c9b7QKfhCc5tqitQ5KjemX7-Pv9axcxUMFlRPN_gFBXelIWDXY41s2l0Vgh-stYLIypky-Iw0XFE8r35i8ETxaupmfuvS8WeTPGw_4YFUhQ93z6qF8y2iXyFsgHaFVOkJHME413D95vQWn0lWBDX9arij18u9rHSOWVXK_H5_GcygXvqfS4rcrnV56wzh-du14CROO4eT7c6HClwZB9wle9mfJ_JFI-EL6FFbFIFWPMKbEk6ADEKtrlZhbl5sAxeKSoHaA_4wCedQtZfYDl0V5XtsoDxqlce2ELxkycxrdbzAVqjgDU8oMbVvlqlAzX58LgFkcg-oM7WjlTqW5Di4OTUqN0LA2Yk6coeq4PrPpiTVya-Yj0bBpoc4lsQNyiS3h1Yk8t3Zb11fvJ7lSyw-uOKzYA6No7OJIMZ7DXi_FmqT.FE5TcccEJqylEZlT1eXUXu8nkTJMB-fwRtTJ1ma9qOE&dib_tag=se&keywords=potenziometro+50k&qid=1740652104&sprefix=potenziometro+50k%2Caps%2C150&sr=8-6))
+* **2**  10uf electrolytic capacitors ([Ama
 * **1**  1uf ceramic capacitor
 * **1**  100nf ceramic capacitor
 * **1**  470uf electrolytic capacitor
@@ -89,82 +89,11 @@ The **Arduino** is the brain of the board. It comunicates with all the buttons, 
 
 This all together makes up the OPENDRUMS circuit. All the connections between the various components are "enclosed" in a PCB (Printed Circuit Board) that makes the assembly of the project easy. You just have to find the necessary components and solder them in the right place! The circuit diagram and the PCB were made using a free online tool colled EasyEDA. 
 
+### Project assembly
 
-## 🌏 Browser Support
+To assemble the project you need to have the PCB, the necessary components, and some basic soldering skills. Our PCB were produced by JLCPcb for really cheap (Like 3$ for 5 PCBs) from the Gerber file that we sent them. 
 
-| <img src="https://user-images.githubusercontent.com/1215767/34348387-a2e64588-ea4d-11e7-8267-a43365103afe.png" alt="Chrome" width="16px" height="16px" /> Chrome | <img src="https://user-images.githubusercontent.com/1215767/34348590-250b3ca2-ea4f-11e7-9efb-da953359321f.png" alt="IE" width="16px" height="16px" /> Internet Explorer | <img src="https://user-images.githubusercontent.com/1215767/34348380-93e77ae8-ea4d-11e7-8696-9a989ddbbbf5.png" alt="Edge" width="16px" height="16px" /> Edge | <img src="https://user-images.githubusercontent.com/1215767/34348394-a981f892-ea4d-11e7-9156-d128d58386b9.png" alt="Safari" width="16px" height="16px" /> Safari | <img src="https://user-images.githubusercontent.com/1215767/34348383-9e7ed492-ea4d-11e7-910c-03b39d52f496.png" alt="Firefox" width="16px" height="16px" /> Firefox |
-| :---------: | :---------: | :---------: | :---------: | :---------: |
-| Yes | 11+ | Yes | Yes | Yes |
-
-
-## 🔧 Pull Request Steps
-
-TOAST UI products are open source, so you can create a pull request(PR) after you fix issues. Run npm scripts and develop yourself with the following process.
-
-### Setup
-
-Fork `main` branch into your personal repository. Clone it to local computer. Install node modules. Before starting development, you should check if there are any errors.
-
-```sh
-$ git clone https://github.com/{your-personal-repo}/tui.editor.git
-$ npm install
-$ npm run build toastmark
-$ npm run test editor
-```
-
-> TOAST UI Editor uses [npm workspace](https://docs.npmjs.com/cli/v7/using-npm/workspaces/), so you need to set the environment based on [npm7](https://github.blog/2021-02-02-npm-7-is-now-generally-available/). If subversion is used, dependencies must be installed by moving direct paths per package.
-
-### Develop
-
-You can see your code reflected as soon as you save the code by running a server. Don't miss adding test cases and then make green rights.
-
-#### Run snowpack-dev-server
-[snowpack](https://www.snowpack.dev/) allows you to run a development server without bundling.
-
-``` sh
-$ npm run serve editor
-```
-
-#### Run webpack-dev-server
-If testing of legacy browsers is required, the development server can still be run using a [webpack](https://webpack.js.org/).
-
-``` sh
-$ npm run serve:ie editor
-```
-
-#### Run test
-
-``` sh
-$ npm test editor
-```
-
-### Pull Request
-
-Before uploading your PR, run test one last time to check if there are any errors. If it has no errors, commit and then push it!
-
-For more information on PR's steps, please see links in the Contributing section.
-
-## 💬 Contributing
-
-* [Code of Conduct](https://github.com/nhn/tui.editor/blob/master/CODE_OF_CONDUCT.md)
-* [Contributing Guideline](https://github.com/nhn/tui.editor/blob/master/CONTRIBUTING.md)
-* [Commit Convention](https://github.com/nhn/tui.editor/blob/master/docs/COMMIT_MESSAGE_CONVENTION.md)
-* [Issue Guidelines](https://github.com/nhn/tui.editor/tree/master/.github/ISSUE_TEMPLATE)
-
-
-## 🍞 TOAST UI Family
-
-- [TOAST UI Calendar](https://github.com/nhn/tui.calendar)
-- [TOAST UI Chart](https://github.com/nhn/tui.chart)
-- [TOAST UI Grid](https://github.com/nhn/tui.grid)
-- [TOAST UI Image Editor](https://github.com/nhn/tui.image-editor)
-- [TOAST UI Components](https://github.com/nhn)
-
-
-## 🚀 Used By
-
-* [NHN Dooray! - Collaboration Service (Project, Messenger, Mail, Calendar, Drive, Wiki, Contacts)](https://dooray.com)
-* [UNOTES - Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=ryanmcalister.Unotes)
+Soldering most of the components to the PCB was easy. The most difficult to solder were the SMD components, but with a youtube tutorial and some patience, the job was done. When soldering SMD componets you usually use an hot air station or an hot reflow plate but we easily 
 
 
 ## 📜 License
