@@ -46,13 +46,13 @@ Because it's **Open-Source** and **Built with love**! You want to just build the
 
 ### Component list
 
-* **11**  12*12mm push buttons
-* **1**  6*6mm push button
+* **11**  12*12mm push buttons ([Amazon link](https://www.amazon.it/RUNCCI-YUN-Interruttore，micro-interruttore-momentanea，Tact-microinterruttori/dp/B0BF51N8CK/ref=sr_1_3?__mk_it_IT=ÅMÅŽÕÑ&crid=2D39AACUVM78Z&dib=eyJ2IjoiMSJ9.Y3eOB8jBGGPvLOlYMCzABjcCs1pTKfTvE1JVXBz9p4mF3Wn-zO-sxe34fwia25wVGzf1k2DjJtkyZWoj3vb3OiHkKG339pj2Kgr74DQYeBWMkpfDk8YrTfkB8Gi2U9CP1ELPvdwe6OqDWlrqZF6kisewhdWQu3cvSP8gok4BE6nossxLDi01uAfvWF37nhvr4kXSfbO0XIZuFCwQCxRqWKkaRaHHD1NKHzAPUNG6YsiQdBzN61t3D1XMg8RjGOfazFKsYxIyz0hk60J2xBwzK2_j4zie668vuKbzpLHvlDbDGSFkGVlxhXuZQsL1S-aCb_oG4_cy2lVbn9X31TLZlsMLWfxCCOB0QRNLexuZcowXP81H4NuJKDdtRqN51dt0ZB2VPAnbZnOFmf1yJDPaDx5jYtMRdtISC257BeCVBOSrANVmmNN1cyiysgSCurUN.Qq2wZlf-S__et4NP4etEZ1bIg6Yz5EnKg0AOuWtSsEg&dib_tag=se&keywords=bottoni%2Barduino&qid=1740647569&sprefix=bottone%2Barduino%2Caps%2C111&sr=8-3&th=1))
+* **1**  6*6mm push button ([Amazon link](https://www.amazon.it/Interruttore-tattile-istantaneo-interruttore-pulsante/dp/B09VFR3BFN/ref=sr_1_7?__mk_it_IT=ÅMÅŽÕÑ&crid=2D39AACUVM78Z&dib=eyJ2IjoiMSJ9.Y3eOB8jBGGPvLOlYMCzABjcCs1pTKfTvE1JVXBz9p4mF3Wn-zO-sxe34fwia25wVGzf1k2DjJtkyZWoj3vb3OiHkKG339pj2Kgr74DQYeBWMkpfDk8YrTfkB8Gi2U9CP1ELPvdwe6OqDWlrqZF6kisewhdWQu3cvSP8gok4BE6nossxLDi01uAfvWF37nhvr4kXSfbO0XIZuFCwQCxRqWKkaRaHHD1NKHzAPUNG6YsiQdBzN61t3D1XMg8RjGOfazFKsYxIyz0hk60J2xBwzK2_j4zie668vuKbzpLHvlDbDGSFkGVlxhXuZQsL1S-aCb_oG4_cy2lVbn9X31TLZlsMLWfxCCOB0QRNLexuZcowXP81H4NuJKDdtRqN51dt0ZB2VPAnbZnOFmf1yJDPaDx5jYtMRdtISC257BeCVBOSrANVmmNN1cyiysgSCurUN.Qq2wZlf-S__et4NP4etEZ1bIg6Yz5EnKg0AOuWtSsEg&dib_tag=se&keywords=bottoni+arduino&qid=1740647569&sprefix=bottone+arduino%2Caps%2C111&sr=8-7))
 * **2**  ON/OFF slider swiches DPDT
-* **10**  blue 5mm LEDs
+* **10**  blue 5mm LEDs ([Amazon link](https://www.amazon.it/Emissione-Luminosa-Assortimento-Incorniciato-Artigianale/dp/B0CXDS8LDL/ref=sr_1_5?__mk_it_IT=ÅMÅŽÕÑ&crid=3M4ISLTV3RW3G&dib=eyJ2IjoiMSJ9.fTo6QEjI7z7Uix_wxZd1rt453azWaQMOvlVGw5FEu81WY54QinfrAtpRCXgW9hJGdiGX8Cu20IiHUUN3ugZX5StIme1S5utcFiYWoxm7d2zbpiVQZqEVk6Uw2wPGs3BSgfVprPIvCvL0llVzEEVd2p3owQTMFlNdU5ISO9s9yj6eDBfRcUGjCp1hHor68b3ObUCS18Hcs-oOMXN8WpVMbE7gaTN9XXUqHiQAsxIWLoyE8RPyqlXj7FyEl4_aCXNquUc3PQRVBt71HAe47yNn0hRTnFmR3Z_LMNtgnD8J4onbone-LtDbTAAiZdcZxklvYwM9Uowbii3lmTx9OEC-OkuGyguQPFHgDcLZpyd_LEynTcha8EuzdbxQhQ-6-GOXQzXE65Q7GAMD1MlwO7nYPpojUjSnR8E3zEhor6N4YiIJXNG5r0tUIgFRqi1l65l0.OlKJAyDmSLPnohYcW7WazOnfsnAZFkXZYGP9XLI2c2g&dib_tag=se&keywords=led+arduino&qid=1740647820&sprefix=led+arduino%2Caps%2C159&sr=8-5))
 * **1**  green 5mm LED
 * **1**  red 5mm LED
-* **12**  1k 1/4W resistors
+* **12**  1k 1/4W resistors 
 * **1**  10k 1/4W resistor
 * **1**  220 1/4W resistor
 * **1**  50k potentiometer
