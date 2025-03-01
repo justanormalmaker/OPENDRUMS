@@ -13,12 +13,7 @@
 - [Why OPENDRUMS?](#-why-opendrums)
 - [Features](#-features)
 - [Hardware](#-hardware)
-- [Browser Support](#-browser-support)
-- [Pull Request Steps](#-pull-request-steps)
-- [Contributing](#-contributing)
-- [TOAST UI Family](#-toast-ui-family)
-- [Used By](#-used-by)
-- [License](#-license)
+
 
 
 ## 🚀 About
@@ -94,9 +89,9 @@ This all together makes up the OPENDRUMS circuit. All the connections between th
 
 ### Project assembly
 
-To assemble the project you need to have the PCB, the necessary components, and some basic soldering skills. Our PCB were produced by JLCPcb for really cheap (Like 3$ for 5 PCBs) from the Gerber file that we sent them. 
+To assemble the project you need to have the PCB, the necessary components, and some basic soldering skills. Our PCB were produced by JLCPcb for really cheap (Like 3$ for 5 PCBs), from the Gerber file that we sent them. 
 
-Soldering most of the components to the PCB was easy. The most difficult to solder were the SMD components, but with a youtube tutorial and some patience, the job was done. When soldering SMD componets you usually use an hot air station or an hot reflow plate but we easily 
+Soldering most of the components to the PCB was easy. The most difficult to solder were the SMD components, but with a youtube tutorial and some patience, the job was done. When soldering SMD componets you usually use an hot air station or an hot reflow plate but we easily soldered the components using a simple soldering iron. The namw
 
 
 ## 📜 License
