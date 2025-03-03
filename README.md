@@ -1,5 +1,5 @@
 <img src="https://github.com/user-attachments/assets/6913ead2-5862-47ee-b035-4ca4a0166c98" width="400px">
-     
+    
 > The portable Open-Source sample player/drum pads based on Atmega328 
 
 [![code with hearth by JANM](https://img.shields.io/badge/Made_with%20%E2%99%A5%20by-JANM-ff1414.svg)](https://github.com/justanormalmaker) [![Hardware Version](https://img.shields.io/badge/Hardware-v0.1-00808f.svg)](https://github.com/justanormalmaker) [![Software Version](https://img.shields.io/badge/Software-v0.1-8a2be2.svg)](https://github.com/justanormalmaker) [![license](https://img.shields.io/github/license/justanormalmaker/OPENDRUMS.svg)](https://github.com/justanormalmaker/OPENDRUMS/blob/master/LICENSE) [![Instagram](https://img.shields.io/badge/Instagram-@justanormalmaker-dd2a7b.svg)](https://www.instagram.com/justanormalmaker?igsh=NWh5ZW92dXE0NHJm)
@@ -92,6 +92,8 @@ This all together makes up the OPENDRUMS circuit. All the connections between th
 To assemble the project you need to have the PCB, the necessary components, and some basic soldering skills. Our PCB were produced by JLCPcb for really cheap (Like 3$ for 5 PCBs), from the Gerber file that we sent them. 
 
 Soldering most of the components to the PCB was easy. The most difficult to solder were the SMD components, but with a youtube tutorial and some patience, the job was done. When soldering SMD componets you usually use an hot air station or an hot reflow plate but we easily soldered the components using a simple soldering iron. 
+
+## 💻 Software
 
 
 
