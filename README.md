@@ -76,7 +76,7 @@ The **battery charger/boost converter circuit** is what gives stable **5V power*
 * **OFF/Charging Mode** - The board can be powered by the arduino USB connector. If power is given (using arduino's USB connector) the battery will charge.
 
 > [!CAUTION]
-> YOU MUST DISCONNECT THE ARDUINO FROM ANY COMPUTER OR USB BEFORE TURNING TO ON MODE.
+> DISCONNECT THE ARDUINO FROM ANY COMPUTER OR USB BEFORE TURNING TO ON MODE.
 
 The **Arduino** is the brain of the board. It comunicates with all the buttons, the DFplayer, an the OLED.
 * **Buttons grid** - Every button of the grid is connected to a **digital I/O (Input/output) pin** of the Arduino, setted as **INPUT**, and its also connected to **ground (GND)** and to the nagative terminal of an **LED** that is then connected to **5V**. Every LED is connected in series with a 220ohm resistor. When the button is pressed **it completes the circuit** and connects the arduino pin (pulled UP to 5V), and the negative terminal of the LED to GND. **The LED lights up and the Arduino feels the change in the state of the pin connected to the button**.
@@ -91,7 +91,8 @@ This all together makes up the OPENDRUMS circuit. All the connections between th
 
 To assemble the project you need to have the PCB, the necessary components, and some basic soldering skills. Our PCB were produced by JLCPcb for really cheap (Like 3$ for 5 PCBs), from the Gerber file that we sent them. 
 
-Soldering most of the components to the PCB was easy. The most difficult to solder were the SMD components, but with a youtube tutorial and some patience, the job was done. When soldering SMD componets you usually use an hot air station or an hot reflow plate but we easily soldered the components using a simple soldering iron. The namw
+Soldering most of the components to the PCB was easy. The most difficult to solder were the SMD components, but with a youtube tutorial and some patience, the job was done. When soldering SMD componets you usually use an hot air station or an hot reflow plate but we easily soldered the components using a simple soldering iron. 
+
 
 
 ## 📜 License
