@@ -69,6 +69,10 @@ Because it's **Open-Source** and **Built with love**! You want to just build the
 
 You can find everything, incluse the **schematic and the gerber file** in the repo's files. But for contest this is the **circuit schematic**:
 
+
+<img src="https://github.com/justanormalmaker/OPENDRUMS/blob/main/OPENDRUMS_V1.0_schematic.pdf" />
+
+
 In the schematic we found the **arduino nano, the buttons grid, the two buttons for programming, the volume potentiometer, LED indicators, the DFPlayermini circuit, the battery charger/boost converter circuit, and the OLED display**.
 
 The **battery charger/boost converter circuit** is what gives stable **5V power** to the board and allow to charge a **3.7V LiPo (Lithium Polymer battery)**. The circuit is based on the **AP5900 IC**, a chinese chip used in power-banks and similar products. This specific IC requires little additional components to work **(Some capacitors, an inductor coil, a diode, and two LEDs)** and does the work of 3 ICs in 1. This circuit is connected directly to the 5V pin of the arduino through a **switch** that allows you to choose between **OFF/Charge and ON mode**:
