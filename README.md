@@ -13,6 +13,7 @@
 - [Why OPENDRUMS?](#-why-opendrums)
 - [Features](#-features)
 - [Hardware](#-hardware)
+- [Software](#-software)
 
 
 
@@ -70,7 +71,7 @@ Because it's **Open-Source** and **Built with love**! You want to just build the
 You can find everything, incluse the **schematic and the gerber file** in the repo's files. But for contest this is the **circuit schematic**:
 
 
-<img src="https://github.com/justanormalmaker/OPENDRUMS/blob/main/OPENDRUMS_V1.0_schematic.pdf" />
+<img src="https://github.com/user-attachments/assets/1ea5376e-afc9-4596-8c35-3a6daa8ef165"/>
 
 
 In the schematic we found the **arduino nano, the buttons grid, the two buttons for programming, the volume potentiometer, LED indicators, the DFPlayermini circuit, the battery charger/boost converter circuit, and the OLED display**.
@@ -98,6 +99,20 @@ To assemble the project you need to have the PCB, the necessary components, and 
 Soldering most of the components to the PCB was easy. The most difficult to solder were the SMD components, but with a youtube tutorial and some patience, the job was done. When soldering SMD componets you usually use an hot air station or an hot reflow plate but we easily soldered the components using a simple soldering iron. 
 
 ## 💻 Software
+
+### Main Softwares
+To function OPENDRUMS uses this Arduino code 
+The code is divided in sections and commented so that it can be easily understood.
+
+It also uses this python program
+This program has to be used on a computer to setup OPENDRUMS when in "SETUP" mode.
+
+### Other Softwares
+To use OPENDRUMS as a MIDI instrument you have to use two free softwares:
+- HairLess MIDI
+- LoopMIDI
+
+## :gear: How to Use
 
 
 
