@@ -1,8 +1,8 @@
 <img src="https://github.com/user-attachments/assets/6913ead2-5862-47ee-b035-4ca4a0166c98" width="400px">
     
-> The portable Open-Source sample player/drum pads based on Atmega328 
+> The portable Open-Source sample player/drum pads based on Arduino 
 
-[![code with hearth by JANM](https://img.shields.io/badge/Made_with%20%E2%99%A5%20by-JANM-ff1414.svg)](https://github.com/justanormalmaker) [![Hardware Version](https://img.shields.io/badge/Hardware-v0.1-00808f.svg)](https://github.com/justanormalmaker) [![Software Version](https://img.shields.io/badge/Software-v0.1-8a2be2.svg)](https://github.com/justanormalmaker) [![license](https://img.shields.io/github/license/justanormalmaker/OPENDRUMS.svg)](https://github.com/justanormalmaker/OPENDRUMS/blob/master/LICENSE) [![Instagram](https://img.shields.io/badge/Instagram-@justanormalmaker-dd2a7b.svg)](https://www.instagram.com/justanormalmaker?igsh=NWh5ZW92dXE0NHJm)
+[![code with hearth by JANM](https://img.shields.io/badge/Made_with%20%E2%99%A5%20by-JANM-ff1414.svg)](https://github.com/justanormalmaker) [![Hardware Version](https://img.shields.io/badge/Hardware-v1.0-00808f.svg)](https://github.com/justanormalmaker) [![Software Version](https://img.shields.io/badge/Software-v0.1-8a2be2.svg)](https://github.com/justanormalmaker) [![license](https://img.shields.io/github/license/justanormalmaker/OPENDRUMS.svg)](https://github.com/justanormalmaker/OPENDRUMS/blob/master/LICENSE) [![Instagram](https://img.shields.io/badge/Instagram-@justanormalmaker-dd2a7b.svg)](https://www.instagram.com/justanormalmaker?igsh=NWh5ZW92dXE0NHJm)
 
 <img src="https://github.com/user-attachments/assets/eaa29889-be5d-4f08-b569-18beffe555d9" />
 
@@ -39,25 +39,25 @@ Because it's **Open-Source** and **Built with love**! You want to just build the
 
 ## 💡 Hardware
 
-### Component list
+### Component list (V1.0)
 
-* **11**  12*12mm push buttons ([Amazon link](https://www.amazon.it/RUNCCI-YUN-Interruttore，micro-interruttore-momentanea，Tact-microinterruttori/dp/B0BF51N8CK/ref=sr_1_3?__mk_it_IT=ÅMÅŽÕÑ&crid=2D39AACUVM78Z&dib=eyJ2IjoiMSJ9.Y3eOB8jBGGPvLOlYMCzABjcCs1pTKfTvE1JVXBz9p4mF3Wn-zO-sxe34fwia25wVGzf1k2DjJtkyZWoj3vb3OiHkKG339pj2Kgr74DQYeBWMkpfDk8YrTfkB8Gi2U9CP1ELPvdwe6OqDWlrqZF6kisewhdWQu3cvSP8gok4BE6nossxLDi01uAfvWF37nhvr4kXSfbO0XIZuFCwQCxRqWKkaRaHHD1NKHzAPUNG6YsiQdBzN61t3D1XMg8RjGOfazFKsYxIyz0hk60J2xBwzK2_j4zie668vuKbzpLHvlDbDGSFkGVlxhXuZQsL1S-aCb_oG4_cy2lVbn9X31TLZlsMLWfxCCOB0QRNLexuZcowXP81H4NuJKDdtRqN51dt0ZB2VPAnbZnOFmf1yJDPaDx5jYtMRdtISC257BeCVBOSrANVmmNN1cyiysgSCurUN.Qq2wZlf-S__et4NP4etEZ1bIg6Yz5EnKg0AOuWtSsEg&dib_tag=se&keywords=bottoni%2Barduino&qid=1740647569&sprefix=bottone%2Barduino%2Caps%2C111&sr=8-3&th=1))
-* **1**  6*6mm push button ([Amazon link](https://www.amazon.it/Interruttore-tattile-istantaneo-interruttore-pulsante/dp/B09VFR3BFN/ref=sr_1_7?__mk_it_IT=ÅMÅŽÕÑ&crid=2D39AACUVM78Z&dib=eyJ2IjoiMSJ9.Y3eOB8jBGGPvLOlYMCzABjcCs1pTKfTvE1JVXBz9p4mF3Wn-zO-sxe34fwia25wVGzf1k2DjJtkyZWoj3vb3OiHkKG339pj2Kgr74DQYeBWMkpfDk8YrTfkB8Gi2U9CP1ELPvdwe6OqDWlrqZF6kisewhdWQu3cvSP8gok4BE6nossxLDi01uAfvWF37nhvr4kXSfbO0XIZuFCwQCxRqWKkaRaHHD1NKHzAPUNG6YsiQdBzN61t3D1XMg8RjGOfazFKsYxIyz0hk60J2xBwzK2_j4zie668vuKbzpLHvlDbDGSFkGVlxhXuZQsL1S-aCb_oG4_cy2lVbn9X31TLZlsMLWfxCCOB0QRNLexuZcowXP81H4NuJKDdtRqN51dt0ZB2VPAnbZnOFmf1yJDPaDx5jYtMRdtISC257BeCVBOSrANVmmNN1cyiysgSCurUN.Qq2wZlf-S__et4NP4etEZ1bIg6Yz5EnKg0AOuWtSsEg&dib_tag=se&keywords=bottoni+arduino&qid=1740647569&sprefix=bottone+arduino%2Caps%2C111&sr=8-7))
-* **2**  ON/OFF slider swiches DPDT
-* **10**  blue 5mm LEDs ([Amazon link](https://www.amazon.it/Emissione-Luminosa-Assortimento-Incorniciato-Artigianale/dp/B0CXDS8LDL/ref=sr_1_5?__mk_it_IT=ÅMÅŽÕÑ&crid=3M4ISLTV3RW3G&dib=eyJ2IjoiMSJ9.fTo6QEjI7z7Uix_wxZd1rt453azWaQMOvlVGw5FEu81WY54QinfrAtpRCXgW9hJGdiGX8Cu20IiHUUN3ugZX5StIme1S5utcFiYWoxm7d2zbpiVQZqEVk6Uw2wPGs3BSgfVprPIvCvL0llVzEEVd2p3owQTMFlNdU5ISO9s9yj6eDBfRcUGjCp1hHor68b3ObUCS18Hcs-oOMXN8WpVMbE7gaTN9XXUqHiQAsxIWLoyE8RPyqlXj7FyEl4_aCXNquUc3PQRVBt71HAe47yNn0hRTnFmR3Z_LMNtgnD8J4onbone-LtDbTAAiZdcZxklvYwM9Uowbii3lmTx9OEC-OkuGyguQPFHgDcLZpyd_LEynTcha8EuzdbxQhQ-6-GOXQzXE65Q7GAMD1MlwO7nYPpojUjSnR8E3zEhor6N4YiIJXNG5r0tUIgFRqi1l65l0.OlKJAyDmSLPnohYcW7WazOnfsnAZFkXZYGP9XLI2c2g&dib_tag=se&keywords=led+arduino&qid=1740647820&sprefix=led+arduino%2Caps%2C159&sr=8-5))
+* **11**  12*12mm push buttons
+* **1**  ON/OFF slider switch DPDT
+* **1**  push switch DPDT
+* **10**  blue 5mm LEDs 
 * **1**  green 5mm LED
 * **1**  red 5mm LED
-* **12**  1k 1/4W resistors ([Amazon link](https://www.amazon.it/BOJACK-valori-assortimento-resistori-carbonio/dp/B08FD1XVL6/ref=sr_1_1_sspa?__mk_it_IT=ÅMÅŽÕÑ&crid=29AG1U4051PI&dib=eyJ2IjoiMSJ9.PH1qx-HYshIwrIYD_f7AJHx5rd8jAZ8RpDegaWzjrLOeIeGCHtwbyWvuzu2IaDvXngz4nMESIbYHkg-pyd1f4MNJyr35iJWknUAYo8xeCVYe98Uz7MKrSegSXQJSo-q2FWci8VkkJyS7qfIh6gIF2tS1yfV-AilrIoW2PLM_w6VpQWdq-52s4LZcj4PCsWmlVvSQq_gQYlZEmO-xo5LjDIBGLEqGzw_9yCnRDhCaGIqLCKaVvs98aG2oZabX4HK404nCMN_8CE3LNST0CvhMeZWyZuFqAi5aqJrc-ejtHac.xyy5aWoRXSNbfkrVuvYc48VcW6ZgbG5iHhLqJjM1P9M&dib_tag=se&keywords=resistenze%2Barduino&qid=1740647964&sprefix=resistenze%2Barduino%2Caps%2C141&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1))
+* **12**  1k 1/4W resistors 
 * **1**  10k 1/4W resistor
 * **1**  220 1/4W resistor
-* **1**  50k potentiometer ([Amazon link](https://www.amazon.it/TecnoStore®-POTENZIOMETRO-LINEARE-MONOGIRO-potentiometer/dp/B072JWNH3X/ref=sr_1_6?__mk_it_IT=ÅMÅŽÕÑ&crid=M12BQV1S7POT&dib=eyJ2IjoiMSJ9.79x5GRzZ_T4kl61UDK2c9b7QKfhCc5tqitQ5KjemX7-Pv9axcxUMFlRPN_gFBXelIWDXY41s2l0Vgh-stYLIypky-Iw0XFE8r35i8ETxaupmfuvS8WeTPGw_4YFUhQ93z6qF8y2iXyFsgHaFVOkJHME413D95vQWn0lWBDX9arij18u9rHSOWVXK_H5_GcygXvqfS4rcrnV56wzh-du14CROO4eT7c6HClwZB9wle9mfJ_JFI-EL6FFbFIFWPMKbEk6ADEKtrlZhbl5sAxeKSoHaA_4wCedQtZfYDl0V5XtsoDxqlce2ELxkycxrdbzAVqjgDU8oMbVvlqlAzX58LgFkcg-oM7WjlTqW5Di4OTUqN0LA2Yk6coeq4PrPpiTVya-Yj0bBpoc4lsQNyiS3h1Yk8t3Zb11fvJ7lSyw-uOKzYA6No7OJIMZ7DXi_FmqT.FE5TcccEJqylEZlT1eXUXu8nkTJMB-fwRtTJ1ma9qOE&dib_tag=se&keywords=potenziometro+50k&qid=1740652104&sprefix=potenziometro+50k%2Caps%2C150&sr=8-6))
-* **2**  10uf electrolytic capacitors ([Ama
+* **1**  50k potentiometer 
+* **2**  10uf electrolytic capacitors 
 * **1**  1uf ceramic capacitor
 * **1**  100nf ceramic capacitor
 * **1**  470uf electrolytic capacitor
 * **1**  33uH SMD inductor coil
 * **1**  SS24 SMD diode
-* **1**  3.5mm headphones jack
+* **2**  3.5mm headphones jack
 * **1**  4ohm speaker
 * **1**  DFPlayerMini module
 * **1**  128*64 0.96" I2C OLED display
