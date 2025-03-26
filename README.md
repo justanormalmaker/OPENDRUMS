@@ -21,7 +21,7 @@
 
 **OPENDRUMS** is an elecronic instrument similar to a **sample player or a drum pads machine**, but with the particularity of being small, portable and **Open-Source**!
 When i ( [@justanormalmaker](https://github.com/justanormalmaker) ) thought of OPENDRUMS I wanted to create a relatively "simple" but at the same time cool and useful Hardware/Software project that anyone could create with a few components, a PCB, and a soldering iron. Its a good project for people that like to **create music**, like me :), and for anyone else that want to build a cool project and **learn something new**! The aim of this project is to bring music lovers closer to electronics and vice versa, leaving aside the boring theory and experimenting directly with something concrete and fun.
-You can build OPENDRUMS with **60 components** and an Arduino Nano board. You can use the instrument to play drums or any type of samples wherever and whenever you like thanks to its **9 progammable buttons** that act like pads, **rechargeable battery**, and **compact size**. For more information about the Hardware and Software go to 
+You can build OPENDRUMS with **60 components** and an Arduino Nano board. You can use the instrument to play drums or any type of samples wherever and whenever you like thanks to its **9 progammable buttons** that act like pads, **rechargeable battery**, and **compact size**. For more information about the Hardware and Software go to (link) 
 
 
 ## 🥁 Why OPENDRUMS?
@@ -87,7 +87,7 @@ The **Arduino** is the brain of the board. It comunicates with all the buttons, 
 * **Buttons grid** - Every button of the grid is connected to a **digital I/O (Input/output) pin** of the Arduino, setted as **INPUT**, and its also connected to **ground (GND)** and to the nagative terminal of an **LED** that is then connected to **5V**. Every LED is connected in series with a 220ohm resistor. When the button is pressed **it completes the circuit** and connects the arduino pin (pulled UP to 5V), and the negative terminal of the LED to GND. **The LED lights up and the Arduino feels the change in the state of the pin connected to the button**.
 * **Buttons for programming/LED indicator** - Same thing for this buttons but this time we have only an LED connected **indipendently** to GND and to the **digital pin 13**, setted as **OUTPUT**, by the positive terminal.
 * **Volume potentiometer** - It's connected to the **analog pin 3**, of the arduino and obviously to **GND and 5V**.
-* **DFPlayerMini** - This module has the function of **reading and playing the audio file from an SD card**. Its connected to **GND and 5V trough a series of capacitors**, that have the function of improving the general audio quality of the module by removing the **electrical interference** caused by other components. It comunicates with arduino using the **UART (Universal Asynchronous Receiver-Transmitter) protocol** using the digital **pin 5 and pin 6**. It's also connected to a **4ohm speaker** with a slider switch (used to turn it ON and OFF) and a **3.5mm headphones jack**.
+* **DFPlayerMini** - This module has the function of **reading and playing the audio file from an SD card**. Its connected to **GND and 5V trough a series of capacitors**, that have the function of improving the general audio quality of the module by removing the **electrical interference** caused by other components. It comunicates with arduino using the **UART (Universal Asynchronous Receiver-Transmitter) protocol** using the digital **pin 5 and pin 6**. It's also connected to a **4ohm speaker** with a slider switch (used to turn it ON and OFF) and two **3.5mm headphones jacks**.
 * **OLED display** - The display comunicates with arduino using the **I2C protocol**. It comunicates using **analog pin 4 (SDA) and pin 5 (SCK)** of the arduino and it also recives **5V power**.
 
 This all together makes up the OPENDRUMS circuit. All the connections between the various components are "enclosed" in a PCB (Printed Circuit Board) that makes the assembly of the project easy. You just have to find the necessary components and solder them in the right place! The circuit diagram and the PCB were made using a free online tool colled EasyEDA. 
@@ -101,18 +101,28 @@ Soldering most of the components to the PCB was easy. The most difficult to sold
 ## 💻 Software
 
 ### Main Softwares
-To function OPENDRUMS uses this Arduino code 
+To function OPENDRUMS uses this Arduino code (link)
 The code is divided in sections and commented so that it can be easily understood.
 
-It also uses this python program
+It also uses this python program (link)
 This program has to be used on a computer to setup OPENDRUMS when in "SETUP" mode.
 
 ### Other Softwares
 To use OPENDRUMS as a MIDI instrument you have to use two free softwares:
-- HairLess MIDI
-- LoopMIDI
+- HairLess MIDI (link)
+- LoopMIDI (link)
 
 ## :gear: How to Use
+### Introduction
+OPENDRUMS is an electronic sample player instrument that can be used like a stand-alone instrument or like a USB MIDI instrument/controller. It can play any type of sample, sound, loop... 
+
+### Different modes, setup, and pads programming
+#### Mode 1: SETUP
+After powering on the device (Using the power button or connecting the board to USB while off) the OLED will display the SETUP screen.
+To navigate betwen YES and NO press the UP button, to enter press the PROG button.
+If you select YES the device will enter in setup mode. This mode is used to tell to the board the number of sounds contained on the SD card that you have to insert in the SD card slot on the side. You have to setup the board only when you add or remove files from the card. 
+
+It has 9 playable buttons and 2 buttons for setup and navigation (PROG = Enter, UP = Go to the next option). It also has a power button (on thr back), a Volume knob, an OLED
 
 
 
