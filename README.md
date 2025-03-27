@@ -101,10 +101,10 @@ Soldering most of the components to the PCB was easy. The most difficult to sold
 ## 💻 Software
 
 ### Main Softwares
-To function OPENDRUMS uses this Arduino code [HERE](https://drive.google.com/file/d/1WT7Ou-BxaFXV1CGbcwxmDoQUQwqDtRiJ/view?usp=sharing)
+To function OPENDRUMS uses this [Arduino code](https://drive.google.com/file/d/1WT7Ou-BxaFXV1CGbcwxmDoQUQwqDtRiJ/view?usp=sharing)
 The code is divided in sections and commented so that it can be easily understood.
 
-It also uses this python program [HERE](https://drive.google.com/file/d/1A5xpoAcR-PzPU8dcSf3yCVIaowWnS21I/view?usp=drive_link)
+It also uses this [Python program](https://drive.google.com/file/d/1A5xpoAcR-PzPU8dcSf3yCVIaowWnS21I/view?usp=drive_link)
 This program has to be used on a computer to setup OPENDRUMS when in "SETUP" mode.
 
 ### Other Softwares
