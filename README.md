@@ -26,7 +26,7 @@ You can build OPENDRUMS with **60 components** and an Arduino Nano board. You ca
 
 ## 🥁 Why OPENDRUMS?
 
-Because it's **Open-Source** and **Built with love**! You want to just build the 0.1v of the project, you can! You want to create your custom OPENDRUMS variation, or you want to improve OPENDRUMS and help me create the 1.0v, you can! You want to create a better code for the project, a better design, you want to add more buttons, more leds... you can! All the original code, circuit schematic and PCB desing are avilable for you, to just build OPENDRUMS 0.1, or to customaize everything! You decide!
+Because it's **Open-Source** and **Built with love**! You want to just build the 1.0v of the project, you can! You want to create your custom OPENDRUMS variation, or you want to improve OPENDRUMS and help me create the 2.0v, you can! You want to create a better code for the project, a better design, you want to add more buttons, more leds... you can! All the original code, circuit schematic and PCB desing are avilable for you, to just build OPENDRUMS 1.0, or to customaize everything! You decide!
 
 ## 🎨 Features
 
@@ -101,16 +101,16 @@ Soldering most of the components to the PCB was easy. The most difficult to sold
 ## 💻 Software
 
 ### Main Softwares
-To function OPENDRUMS uses this Arduino code (link)
+To function OPENDRUMS uses this Arduino code [HERE](https://drive.google.com/file/d/1WT7Ou-BxaFXV1CGbcwxmDoQUQwqDtRiJ/view?usp=sharing)
 The code is divided in sections and commented so that it can be easily understood.
 
-It also uses this python program (link)
+It also uses this python program [HERE](https://drive.google.com/file/d/1A5xpoAcR-PzPU8dcSf3yCVIaowWnS21I/view?usp=drive_link)
 This program has to be used on a computer to setup OPENDRUMS when in "SETUP" mode.
 
 ### Other Softwares
 To use OPENDRUMS as a MIDI instrument you have to use two free softwares:
-- HairLess MIDI (link)
-- LoopMIDI (link)
+- [HairLess MIDI](https://projectgus.github.io/hairless-midiserial/)
+- [LoopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html)
 
 ## :gear: How to Use
 ### Introduction
