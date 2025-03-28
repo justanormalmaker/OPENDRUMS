@@ -132,7 +132,7 @@ To setup the board, connect it to a computer via USB, open the OPENDRUMS python 
 #### Mode 2: MIDI
 After the SETUP screen the MIDI screen is displayed. If YES is selected the device will enter midi mode. Now it can be used like a USB midi instrument.
 
-> [!NOTE]
+> [!IMPORTANT]
 > You have to open Hairless MIDI and LoopMidi softwares so that the device can be correctly recognaized as a MIDI instrument.
 
 #### Mode 3: SD PLAY
