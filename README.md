@@ -14,12 +14,13 @@
 - [Features](#-features)
 - [Hardware](#-hardware)
 - [Software](#-software)
+- [How to use](#%EF%B8%8F-how-to-use)
 
 
 
 ## 🚀 About
 
-**OPENDRUMS** is an elecronic instrument similar to a **sample player or a drum pads machine**, but with the particularity of being small, portable and **Open-Source**!
+**OPENDRUMS** is an elecronic instrument similar to a **sample player or a drum pads machine** that can play any sound sample, but with the particularity of being small, portable and **Open-Source**!
 When i ( [@justanormalmaker](https://github.com/justanormalmaker) ) thought of OPENDRUMS I wanted to create a relatively "simple" but at the same time cool and useful Hardware/Software project that anyone could create with a few components, a PCB, and a soldering iron. Its a good project for people that like to **create music**, like me :), and for anyone else that want to build a cool project and **learn something new**! The aim of this project is to bring music lovers closer to electronics and vice versa, leaving aside the boring theory and experimenting directly with something concrete and fun.
 You can build OPENDRUMS with **60 components** and an Arduino Nano board. You can use the instrument to play drums or any type of samples wherever and whenever you like thanks to its **9 progammable buttons** that act like pads, **rechargeable battery**, and **compact size**. For more information about the Hardware and Software go to (link) 
 
@@ -112,19 +113,43 @@ To use OPENDRUMS as a MIDI instrument you have to use two free softwares:
 - [HairLess MIDI](https://projectgus.github.io/hairless-midiserial/)
 - [LoopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html)
 
-## :gear: How to Use
+## ⚙️ How to Use
+
 ### Introduction
 OPENDRUMS is an electronic sample player instrument that can be used like a stand-alone instrument or like a USB MIDI instrument/controller. It can play any type of sample, sound, loop... 
 
-### Different modes, setup, and pads programming
+### Different modes and setup.
 #### Mode 1: SETUP
 After powering on the device (Using the power button or connecting the board to USB while off) the OLED will display the SETUP screen.
-To navigate betwen YES and NO press the UP button, to enter press the PROG button.
-If you select YES the device will enter in setup mode. This mode is used to tell to the board the number of sounds contained on the SD card that you have to insert in the SD card slot on the side. You have to setup the board only when you add or remove files from the card. 
+To navigate betwen YES and NO press the UP button, to enter press the PROGRAM button.
+If YES is selected the device will enter in setup mode. This mode is used to tell to the board the number of sounds contained on the SD card that you can insert in the SD card slot on the side. 
 
-It has 9 playable buttons and 2 buttons for setup and navigation (PROG = Enter, UP = Go to the next option). It also has a power button (on thr back), a Volume knob, an OLED
+> [!NOTE]
+> You have to setup the board only when you add or remove files from the card.
 
+To setup the board, connect it to a computer via USB, open the OPENDRUMS python program, insert the number of files contained in the SD and click "Send". The board will restart.
 
+#### Mode 2: MIDI
+After the SETUP screen the MIDI screen is displayed. If YES is selected the device will enter midi mode. Now it can be used like a USB midi instrument.
+
+> [!NOTE]
+> You have to open Hairless MIDI and LoopMidi softwares so that the device can be correctly recognaized as a MIDI instrument.
+
+#### Mode 3: SD PLAY
+if any of the previous mode is selected the device will enter in SD mode. Now it can be used like a stand-alone instrument that will play any sample present on the SD card inserted.
+
+> [!IMPORTANT]
+> The samples of the SD card have to be .WAW files.
+
+### How to play.
+Before playing, you have to select what sample every button will play.
+To do that, press the PROGRAM button, then find the sample name (or Midi note value, in MIDI mode) you like using the UP button, and press one of the button named PAD to assing the sample to that button.
+To exit this "program" state press the PROGRAM button again.
+
+> [!NOTE]
+> The samples selected for the buttons will stay the same even after turning off the device until you program the button again.
+
+Now to play the samples, press any of the PAD button and have fun!
 
 ## 📜 License
 
