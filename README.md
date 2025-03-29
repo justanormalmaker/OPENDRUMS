@@ -72,7 +72,7 @@ Because it's **Open-Source** and **Built with love**! You want to just build the
 You can find everything, incluse the **schematic and the gerber file** in the repo's files. But for contest this is the **circuit schematic**:
 
 
-<img src="https://github.com/user-attachments/assets/1ea5376e-afc9-4596-8c35-3a6daa8ef165"/>
+<img src="https://github.com/user-attachments/assets/54658d91-32e2-442c-8c32-121d656a3f97"/>
 
 
 In the schematic we found the **arduino nano, the buttons grid, the two buttons for programming, the volume potentiometer, LED indicators, the DFPlayermini circuit, the battery charger/boost converter circuit, and the OLED display**.
