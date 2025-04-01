@@ -104,10 +104,10 @@ After soldering, we uploaded the .ino code to the Arduino, and the board was rea
 ## 💻 Software
 
 ### Main Softwares
-To function OPENDRUMS uses this [Arduino code](SOFTWARE/OPENDRUMS_V0.1_arduino_software.ino).
+To function OPENDRUMS uses this [Arduino code](SOFTWARE/OPENDRUMS_V1.0_arduino_software.ino).
 The code is divided in sections and commented so that it can be easily understood.
 
-It also uses this [Python program](SOFTWARE/OPENDRUMS_V0.1_python_setup_software.ino).
+It also uses this [Python program](SOFTWARE/OPENDRUMS_V1.0_python_setup_software.ino).
 This program has to be used on a computer to setup OPENDRUMS when in "SETUP" mode. More info in the "How to use" section below.
 
 ### Other Softwares
