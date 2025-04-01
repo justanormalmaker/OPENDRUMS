@@ -99,13 +99,14 @@ To assemble the project you need to have the PCB, the necessary components, and 
 
 Soldering most of the components to the PCB was easy. The most difficult to solder were the SMD components, but with a youtube tutorial and some patience, the job was done. When soldering SMD componets you usually use an hot air station or an hot reflow plate but we easily soldered the components using a simple soldering iron. 
 
+After soldering, we uploaded the .ino code to the Arduino, and the board was ready!
 ## 💻 Software
 
 ### Main Softwares
-To function OPENDRUMS uses this [Arduino code](https://drive.google.com/file/d/1WT7Ou-BxaFXV1CGbcwxmDoQUQwqDtRiJ/view?usp=sharing)
+To function OPENDRUMS uses this [Arduino code](SOFTWARE/OPENDRUMS_V0.1_arduino_software.ino).
 The code is divided in sections and commented so that it can be easily understood.
 
-It also uses this [Python program](https://drive.google.com/file/d/1A5xpoAcR-PzPU8dcSf3yCVIaowWnS21I/view?usp=drive_link)
+It also uses this [Python program](SOFTWARE/OPENDRUMS_V0.1_python_setup_software.ino).
 This program has to be used on a computer to setup OPENDRUMS when in "SETUP" mode.
 
 ### Other Softwares
@@ -143,13 +144,13 @@ if any of the previous mode is selected the device will enter in SD mode. Now it
 
 ### How to play.
 Before playing, you have to select what sample every button will play.
-To do that, press the PROGRAM button, then find the sample name (or Midi note value, in MIDI mode) you like using the UP button, and press one of the button named PAD to assing the sample to that button.
+To do that, press the PROGRAM button, then find the sample name (or Midi note value, in MIDI mode) you like, using the UP button, and press one of the buttons named PAD to assing the sample to that button.
 To exit this "program" state press the PROGRAM button again.
 
 > [!NOTE]
-> The samples selected for the buttons will stay the same even after turning off the device until you program the button again.
+> The samples selected for the buttons will stay the same even after turning off the device until you program the buttons again.
 
-Now to play the samples, press any of the PAD button and have fun!
+Now to play the samples, press any of the PAD buttons and have fun!
 
 ## 📜 License
 
