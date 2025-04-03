@@ -101,7 +101,7 @@ Soldering most of the components to the PCB was easy. The most difficult to sold
 
 After soldering, we uploaded the .ino code to the Arduino, and the board was ready!
 
-If you want to complete you project you can also 3d print [this](HARDWARE/OPENDRUMS_prototipe_case.stl) case (it's for the 0.1v, we are going to release the 1.0v soon :) )
+If you want to complete you project you can also 3d print [this]((https://github.com/justanormalmaker/OPENDRUMS/tree/d73520e1f8d5941a42290f2c07b925489fcdf160/HARDWARE/CASE%20(Per%20prototipo%20v0.1))) case (it's for the 0.1v, we are going to release the 1.0v soon :) )
 
 ## 💻 Software
 
