@@ -35,7 +35,7 @@ Because it's **Open-Source** and **Built with love**! You want to just build the
 * **9 progammable buttons** - *Buttons that can be programmed to play any sample*
 * **OLED screen** - *For programming the button*
 * **Integrated speaker**
-* **3.5mm headphones jack**
+* **3.5mm headphones jacks**
 * **Rechargeable battery**
 * **USB-C charging port** *(depends on the arduino board used)*
 
@@ -65,7 +65,7 @@ Because it's **Open-Source** and **Built with love**! You want to just build the
 * **1**  128*64 0.96" I2C OLED display
 * **1**  JST 2mm connector
 * **1**  AP5900 battery charger/boost converter IC (SOP-8 package)
-* **1**  Arduino nano every 
+* **1**  Arduino nano every (The original boards have a micro-USB port, some chinese clone have a USB-C port)
 
 ### PCB and circuit schematics
 
@@ -101,7 +101,7 @@ Soldering most of the components to the PCB was easy. The most difficult to sold
 
 After soldering, we uploaded the .ino code to the Arduino, and the board was ready!
 
-If you want to complete you project you can also 3d print [this](https://github.com/justanormalmaker/OPENDRUMS/tree/d73520e1f8d5941a42290f2c07b925489fcdf160/HARDWARE/CASE%20(Per%20prototipo%20v0.1)) case (it's for the 0.1v, we are going to release the 1.0v soon :) )
+If you want to complete you project you can also 3d print [this](https://github.com/justanormalmaker/OPENDRUMS/tree/d73520e1f8d5941a42290f2c07b925489fcdf160/HARDWARE/CASE%20(Per%20prototipo%20v0.1)) case (it's for the v0.1, we are going to release the case for the v1.0 soon :) )
 
 ## 💻 Software
 
@@ -157,5 +157,5 @@ Now to play the samples, press any of the PAD buttons and have fun!
 
 ## 📜 License
 
-This software is licensed under the [MIT](https://github.com/justanormalmaker/OPENDRUMS/blob/main/LICENSE) © [JustANormalMaker](https://github.com/justanormalmaker).
+This project is licensed under the [MIT](https://github.com/justanormalmaker/OPENDRUMS/blob/main/LICENSE) © [JustANormalMaker](https://github.com/justanormalmaker).
 
