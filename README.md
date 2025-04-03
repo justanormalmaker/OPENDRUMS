@@ -2,7 +2,7 @@
     
 > The portable Open-Source sample player/drum pads based on Arduino 
 
-[![code with hearth by JANM](https://img.shields.io/badge/Made_with%20%E2%99%A5%20by-JANM-ff1414.svg)](https://github.com/justanormalmaker) [![Hardware Version](https://img.shields.io/badge/Hardware-v1.0-00808f.svg)](https://github.com/justanormalmaker) [![Software Version](https://img.shields.io/badge/Software-v1.0-8a2be2.svg)](https://github.com/justanormalmaker) [![license](https://img.shields.io/github/license/justanormalmaker/OPENDRUMS.svg)](https://github.com/justanormalmaker/OPENDRUMS/blob/master/LICENSE) [![Instagram](https://img.shields.io/badge/Instagram-@justanormalmaker-dd2a7b.svg)](https://www.instagram.com/justanormalmaker?igsh=NWh5ZW92dXE0NHJm)
+[![code with hearth by JANM](https://img.shields.io/badge/Made_with%20%E2%99%A5%20by-JANM-ff1414.svg)](https://github.com/justanormalmaker) [![Hardware Version](https://img.shields.io/badge/Hardware-v1.0-00808f.svg)](https://github.com/justanormalmaker) [![Software Version](https://img.shields.io/badge/Software-v1.0-8a2be2.svg)](https://github.com/justanormalmaker) [![license](https://img.shields.io/github/license/justanormalmaker/OPENDRUMS.svg)](https://github.com/justanormalmaker/OPENDRUMS/blob/master/LICENSE) [![Instagram](https://img.shields.io/badge/Instagram-@justanormalmaker-dd2a7b.svg)](https://www.instagram.com/justanormalmaker?igsh=NWh5ZW92dXE0NHJm) [![Instagram](https://img.shields.io/badge/Instagram-@justanormalmaker-dd2a7b.svg)](https://www.instagram.com/opendrums.project)
 
 <img src="https://github.com/user-attachments/assets/eaa29889-be5d-4f08-b569-18beffe555d9" />
 
@@ -101,7 +101,7 @@ Soldering most of the components to the PCB was easy. The most difficult to sold
 
 After soldering, we uploaded the .ino code to the Arduino, and the board was ready!
 
-If you want to complete you project you can also 3d print this case (it's for the 0.1v, we are going to release the 1.0v soon :) )
+If you want to complete you project you can also 3d print [this] (HARDWARE/CASE (HARDWARE/CASE (Per prototipo v0.1)/OPENDRUMS_prototipe_case.stl)) case (it's for the 0.1v, we are going to release the 1.0v soon :) )
 
 ## 💻 Software
 
