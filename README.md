@@ -101,6 +101,8 @@ Soldering most of the components to the PCB was easy. The most difficult to sold
 
 After soldering, we uploaded the .ino code to the Arduino, and the board was ready!
 
+If you want to complete you project you can also 3d print this case (it's for the 0.1v, we are going to release the 1.0v soon :) )
+
 ## 💻 Software
 
 ### Main Softwares
