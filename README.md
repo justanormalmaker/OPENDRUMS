@@ -25,7 +25,7 @@ Click on the image to see the video demo :)
 
 **OPENDRUMS** is an elecronic instrument similar to a **sample player or a drum pads machine** that can play any sound sample, but with the particularity of being small, portable and **Open-Source**!
 When i ( [@justanormalmaker](https://github.com/justanormalmaker) ) thought of OPENDRUMS I wanted to create a relatively "simple" but at the same time cool and useful Hardware/Software project that anyone could create with a few components, a PCB, and a soldering iron. Its a good project for people that like to **create music**, like me :), and for anyone else that want to build a cool project and **learn something new**! The aim of this project is to bring music lovers closer to electronics and vice versa, leaving aside the boring theory and experimenting directly with something concrete and fun.
-You can build OPENDRUMS with **60 components** and an Arduino Nano board. You can use the instrument to play drums or any type of samples wherever and whenever you like thanks to its **9 progammable buttons** that act like pads, **rechargeable battery**, and **compact size**. For more information about the Hardware and Software go to [Hardware](#-hardware)  -  [Software](#-software).
+You can build OPENDRUMS with **60 components** and an Arduino Nano board. You can use the instrument to play drums or any type of samples wherever and whenever you like thanks to its **9 progammable buttons** that act like pads, **rechargeable battery**, and **compact size**. For more information go to [Hardware](#-hardware)  -  [Software](#-software) - [How to use](#%EF%B8%8F-how-to-use) 
 
 
 ## 🥁 Why OPENDRUMS?
