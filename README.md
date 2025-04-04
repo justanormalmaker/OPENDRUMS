@@ -103,7 +103,7 @@ After soldering, we uploaded the .ino code to the Arduino, and the board was rea
 
 If you want to complete you project you can also 3d print [this](https://github.com/justanormalmaker/OPENDRUMS/tree/d73520e1f8d5941a42290f2c07b925489fcdf160/HARDWARE/CASE%20(Per%20prototipo%20v0.1)) case (it's for the v0.1, we are going to release the case for the v1.0 soon :) )
 
-<img src="https://github.com/user-attachments/assets/54658d91-32e2-442c-8c32-121d656a3f97"/>
+<img src="https://github.com/user-attachments/assets/0ab41940-4e27-43fc-a050-58d6f544d6fa"/>
 
 ## 💻 Software
 
