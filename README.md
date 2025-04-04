@@ -100,7 +100,7 @@ This all together makes up the OPENDRUMS circuit. All the connections between th
 
 To assemble the project you need to have the PCB, the necessary components, and some basic soldering skills. Our PCB were produced by JLCPcb for really cheap (Like 3$ for 5 PCBs), from the Gerber file that we sent them. You can find where the components go in the circuit schematic above. 
 
-<img src="https://github.com/user-attachments/assets/eb1280ad-153f-4dce-8afa-d17fa15f9b7e">
+<img src="https://github.com/user-attachments/assets/582b7092-d178-418b-95f5-2dbb06f4fbae">
 
 Soldering most of the components to the PCB was easy. The most difficult to solder were the SMD components, but with a youtube tutorial and some patience, the job was done. When soldering SMD componets you usually use an hot air station or an hot reflow plate but we easily soldered the components using a simple soldering iron. 
 
