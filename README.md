@@ -102,6 +102,8 @@ To assemble the project you need to have the PCB, the necessary components, and 
 
 <img src="https://github.com/user-attachments/assets/582b7092-d178-418b-95f5-2dbb06f4fbae">
 
+DISCLAIMER! The PCB above is the prototipe version (v0.1) not the recent v1.0!
+
 Soldering most of the components to the PCB was easy. The most difficult to solder were the SMD components, but with a youtube tutorial and some patience, the job was done. When soldering SMD componets you usually use an hot air station or an hot reflow plate but we easily soldered the components using a simple soldering iron. 
 
 After soldering, we uploaded the .ino code to the Arduino, and the board was ready!
@@ -109,8 +111,6 @@ After soldering, we uploaded the .ino code to the Arduino, and the board was rea
 If you want to complete you project you can also 3d print [this](https://github.com/justanormalmaker/OPENDRUMS/tree/d73520e1f8d5941a42290f2c07b925489fcdf160/HARDWARE/CASE%20(Per%20prototipo%20v0.1)) case (it's for the v0.1, we are going to release the case for the v1.0 soon :) )
 
 <img src="https://github.com/user-attachments/assets/0ab41940-4e27-43fc-a050-58d6f544d6fa"/>
-
-DISCLAIMER! The PCB above is the prototipe version (v0.1) not the recent v1.0!
 
 ## 💻 Software
 
