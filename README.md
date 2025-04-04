@@ -4,7 +4,10 @@
 
 [![code with hearth by JANM](https://img.shields.io/badge/Made_with%20%E2%99%A5%20by-JANM-ff1414.svg)](https://github.com/justanormalmaker) [![Hardware Version](https://img.shields.io/badge/Hardware-v1.0-00808f.svg)](https://github.com/justanormalmaker) [![Software Version](https://img.shields.io/badge/Software-v1.0-8a2be2.svg)](https://github.com/justanormalmaker) [![license](https://img.shields.io/github/license/justanormalmaker/OPENDRUMS.svg)](https://github.com/justanormalmaker/OPENDRUMS/blob/master/LICENSE) [![Instagram](https://img.shields.io/badge/Instagram-@opendrums.project-dd2a7b.svg)](https://www.instagram.com/opendrums.project)
 
-<img src="https://github.com/user-attachments/assets/eaa29889-be5d-4f08-b569-18beffe555d9" />
+
+[![OPENDRUMS DEMO](https://github.com/user-attachments/assets/eaa29889-be5d-4f08-b569-18beffe555d9)](https://www.youtube.com/watch?v=3pwfQyi5qWA "OPENDRUMS V1.0 video demo")
+
+Click on the image to see the video demo :)
 
 
 ## 🚩 Table of Contents
