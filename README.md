@@ -68,7 +68,7 @@ Because it's **Open-Source** and **Built with love**! You want to just build the
 * **1**  128*64 0.96" I2C OLED display
 * **1**  JST 2mm connector
 * **1**  AP5900 battery charger/boost converter IC (SOP-8 package)
-* **1**  Arduino nano ESP32
+* **1**  Arduino nano ESP32-S3
 
 ### PCB and circuit schematics
 
@@ -108,7 +108,7 @@ Soldering most of the components to the PCB was easy. The most difficult to sold
 
 After soldering, we uploaded the .ino code to the Arduino, and the board was ready!
 
-If you want to complete you project you can also 3d print [this](https://github.com/justanormalmaker/OPENDRUMS/tree/d73520e1f8d5941a42290f2c07b925489fcdf160/HARDWARE/CASE%20(Per%20prototipo%20v0.1)) case (it's for the v0.1, we are going to release the case for the v1.0 soon :) )
+If you want to complete you project you can also 3d print [this](https://github.com/justanormalmaker/OPENDRUMS/tree/d73520e1f8d5941a42290f2c07b925489fcdf160/HARDWARE/CASE%20(Per%20prototipo%20v0.1)) case (This case is for the V0.1 but there is also a case for the V1.0 )
 
 <img src="https://github.com/user-attachments/assets/0ab41940-4e27-43fc-a050-58d6f544d6fa"/>
 
@@ -139,7 +139,7 @@ If YES is selected the device will enter in setup mode. This mode is used to tel
 To setup the board, connect it to a computer via USB, open the OPENDRUMS python program, insert the number of files contained in the SD and click "Send". The board will restart.
 
 #### Mode 2: MIDI
-After the SETUP screen the MIDI screen is displayed. If YES is selected the device will enter midi mode. Now it can be used like a Bluetooth or USB midi instrument.
+After the SETUP screen the MIDI screen is displayed. If YES is selected the device will enter midi mode. Now it can be used like a Bluetooth midi instrument.
 
 #### Mode 3: SD PLAY
 if any of the previous mode is selected the device will enter in SD mode. Now it can be used like a stand-alone instrument that will play any sample present on the SD card inserted.
