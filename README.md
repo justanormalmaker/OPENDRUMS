@@ -68,7 +68,7 @@ Because it's **Open-Source** and **Built with love**! You want to just build the
 * **1**  128*64 0.96" I2C OLED display
 * **1**  JST 2mm connector
 * **1**  AP5900 battery charger/boost converter IC (SOP-8 package)
-* **1**  Arduino nano every (The original boards have a micro-USB port, some chinese clone have a USB-C port)
+* **1**  Arduino nano ESP32
 
 ### PCB and circuit schematics
 
