@@ -25,7 +25,7 @@ Click on the image to see the video demo :)
 
 **OPENDRUMS** is an elecronic instrument similar to a **sample player or a drum pads machine** that can play any sound sample, but with the particularity of being small, portable and **Open-Source**!
 When i ( [@justanormalmaker](https://github.com/justanormalmaker) ) thought of OPENDRUMS I wanted to create a relatively "simple" but at the same time cool and useful Hardware/Software project that anyone could create with a few components, a PCB, and a soldering iron. Its a good project for people that like to **create music**, like me :), and for anyone else that want to build a cool project and **learn something new**! The aim of this project is to bring music lovers closer to electronics and vice versa, leaving aside the boring theory and experimenting directly with something concrete and fun.
-You can build OPENDRUMS with **60 components** and an Arduino Nano board. You can use the instrument to play drums or any type of samples wherever and whenever you like thanks to its **9 progammable buttons** that act like pads, **rechargeable battery**, and **compact size**. For more information go to [Hardware](#-hardware)  -  [Software](#-software) - [How to use](#%EF%B8%8F-how-to-use). 
+You can build OPENDRUMS with **55 components** and an Arduino Nano ESP32 board. You can use the instrument to play drums or any type of samples wherever and whenever you like thanks to its **9 progammable buttons** that act like pads, **rechargeable battery**, and **compact size**. For more information go to [Hardware](#-hardware)  -  [Software](#-software) - [How to use](#%EF%B8%8F-how-to-use). 
 
 
 ## 🥁 Why OPENDRUMS?
@@ -38,7 +38,7 @@ Because it's **Open-Source** and **Built with love**! You want to just build the
 * **9 progammable buttons** - *Buttons that can be programmed to play any sample*
 * **OLED screen** - *For programming the button*
 * **Integrated speaker**
-* **3.5mm headphones jacks**
+* **2 3.5mm headphones jacks**
 * **Rechargeable battery**
 * **USB-C charging port** *(depends on the arduino board used)*
 
@@ -78,7 +78,7 @@ You can find everything, incluse the **schematic and the gerber file** in the re
 <img src="https://github.com/user-attachments/assets/54658d91-32e2-442c-8c32-121d656a3f97"/>
 
 
-In the schematic we found the **arduino nano, the buttons grid, the two buttons for programming, the volume potentiometer, LED indicators, the DFPlayermini circuit, the battery charger/boost converter circuit, and the OLED display**.
+In the schematic we found the **Arduino Nano, the buttons grid, the two buttons for programming, the volume potentiometer, LED indicators, the DFPlayermini circuit, the battery charger/boost converter circuit, and the OLED display**.
 
 The **battery charger/boost converter circuit** is what gives stable **5V power** to the board and allow to charge a **3.7V LiPo (Lithium Polymer battery)**. The circuit is based on the **AP5900 IC**, a chinese chip used in power-banks and similar products. This specific IC requires little additional components to work **(Some capacitors, an inductor coil, a diode, and two LEDs)** and does the work of 3 ICs in 1. This circuit is connected directly to the 5V pin of the arduino through a **switch** that allows you to choose between **OFF/Charge and ON mode**:
 * **ON Mode** - The board is powered by the battery.
@@ -121,10 +121,6 @@ The code is divided in sections and commented so that it can be easily understoo
 It also uses this [Python program](SOFTWARE/OPENDRUMS_V1.0_python_setup_software.ino).
 This program has to be used on a computer to setup OPENDRUMS when in "SETUP" mode. More info in the "How to use" section below.
 
-### Other Softwares
-To use OPENDRUMS as a MIDI instrument you have to use two free softwares:
-- [HairLess MIDI](https://projectgus.github.io/hairless-midiserial/)
-- [LoopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html)
 
 ## ⚙️ How to Use
 
@@ -143,10 +139,7 @@ If YES is selected the device will enter in setup mode. This mode is used to tel
 To setup the board, connect it to a computer via USB, open the OPENDRUMS python program, insert the number of files contained in the SD and click "Send". The board will restart.
 
 #### Mode 2: MIDI
-After the SETUP screen the MIDI screen is displayed. If YES is selected the device will enter midi mode. Now it can be used like a USB midi instrument.
-
-> [!IMPORTANT]
-> You have to open Hairless MIDI and LoopMidi softwares so that the device can be correctly recognaized as a MIDI instrument.
+After the SETUP screen the MIDI screen is displayed. If YES is selected the device will enter midi mode. Now it can be used like a Bluetooth or USB midi instrument.
 
 #### Mode 3: SD PLAY
 if any of the previous mode is selected the device will enter in SD mode. Now it can be used like a stand-alone instrument that will play any sample present on the SD card inserted.
