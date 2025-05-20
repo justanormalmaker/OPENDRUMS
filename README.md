@@ -125,7 +125,7 @@ This program has to be used on a computer to setup OPENDRUMS when in "SETUP" mod
 ## ⚙️ How to Use
 
 ### Introduction
-OPENDRUMS is an electronic sample player instrument that can be used like a stand-alone instrument or like a USB MIDI instrument/controller. It can play any type of sample, sound, loop... 
+OPENDRUMS is an electronic sample player instrument that can be used like a stand-alone instrument or like a Bluetooth MIDI instrument/controller. It can play any type of sample, sound, loop... 
 
 ### Different modes and setup.
 #### Mode 1: SETUP
