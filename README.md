@@ -115,7 +115,7 @@ If you want to complete you project you can also 3d print [this](https://github.
 ## 💻 Software
 
 ### Main Softwares
-To function OPENDRUMS uses this [Arduino code](SOFTWARE/OPENDRUMS_V1.0_arduino_software.ino).
+To function OPENDRUMS uses this [Arduino code](SOFTWARE/OPENDRUMS_V1.0_Arduino_Software.ino).
 The code is divided in sections and commented so that it can be easily understood.
 
 It also uses this [Python program](SOFTWARE/OPENDRUMS_V1.0_python_setup_software.ino).
