@@ -159,5 +159,5 @@ Now to play the samples, press any of the PAD buttons and have fun!
 
 ## 📜 License
 
-This project is licensed under the [MIT](https://github.com/justanormalmaker/OPENDRUMS/blob/main/LICENSE) © [JustANormalMaker](https://github.com/justanormalmaker).
+This project (Hardware and Software) is licensed under the [MIT](https://github.com/justanormalmaker/OPENDRUMS/blob/main/LICENSE) © [JustANormalMaker](https://github.com/justanormalmaker).
 
