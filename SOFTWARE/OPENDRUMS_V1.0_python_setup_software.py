@@ -1,3 +1,9 @@
+''' 
+ OPENDRUMS - The Open-Source sample player
+ Copyright (c) 2025 OPENDRUMS Team
+ Licensed under the MIT License. See LICENSE file for details.
+'''
+
 import serial.tools.list_ports
 import time
 import tkinter as tk
@@ -66,3 +72,4 @@ result_label = ttk.Label(frame, text="", font=("Arial", 10, "bold"))
 result_label.grid(row=4, column=0, columnspan=2, pady=10)
 
 root.mainloop()
+
