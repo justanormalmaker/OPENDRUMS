@@ -1,3 +1,9 @@
+/*
+ OPENDRUMS - The Open-Source sample player
+ Copyright (c) 2025 OPENDRUMS Team
+ Licensed under the MIT License. See LICENSE file for details.
+*/
+
 #include <BLEMIDI_Transport.h>
 #include <hardware/BLEMIDI_ESP32.h>
 #include <Preferences.h>
