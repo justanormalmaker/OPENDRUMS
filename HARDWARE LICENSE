@@ -1,0 +1,14 @@
+CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S)
+
+Copyright (c) 2026 OPENDRUMS Project Team (Giovanni Villani, Domenico Manta)
+
+This hardware design project is free; you can redistribute it and/or modify it under the terms of the CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S) as published by CERN.
+
+An exact copy of the full license text is required to be distributed with this project. 
+You can obtain a copy of the full text of the CERN-OHL-S v2 license at:
+https://ohwr.org
+
+Under the terms of this license, if you modify and distribute these hardware design files, or produce and distribute physical hardware based on them, you MUST:
+1. Keep intact all original copyright notices and attributions to the original creators.
+2. Release your modifications and the resulting hardware under the exact same CERN-OHL-S v2 license.
+3. Make the complete source files (CAD, schematics, PCB layouts) publicly available to anyone who receives the hardware.
