@@ -159,4 +159,4 @@ Now to play the samples, press any of the PAD buttons and have fun!
 
 ## 📜 License
 
-This project is licensed under the [GPLv3](https://github.com/justanormalmaker/OPENDRUMS/blob/main/LICENSE) (Software) and the [CERN-OHL-S-2.0](https://github.com/justanormalmaker/OPENDRUMS/blob/main/LICENSES/HARDWARE%20LICENSE/HARD%20LICENSE) (HardWare) © 2026 OPENDRUMS Team.
+This project is licensed under the [GPLv3](https://github.com/justanormalmaker/OPENDRUMS/blob/main/LICENSE) (Software) and the [CERN-OHL-S-2.0](https://github.com/justanormalmaker/OPENDRUMS/blob/main/LICENSES/HARDWARE%20LICENSE/HARD%20LICENSE) (Hardware) © 2026 OPENDRUMS Team.
