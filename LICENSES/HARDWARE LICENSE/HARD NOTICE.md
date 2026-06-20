@@ -6,7 +6,7 @@ This hardware design (schematics, PCB layouts, CAD/mechanical files, and
 associated documentation) is licensed under the CERN Open Hardware Licence
 Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0). The full and exact text
 of the license, which governs all use, copying, modification, and
-Conveyance of this Covered Source, is in the LICENSE file in this same
+Conveyance of this Covered Source, is in the HARD LICENSE file in this same
 directory.
 
 Official license steward copy, for verification:
@@ -14,7 +14,7 @@ https://ohwr.org/cern_ohl_s_v2.txt
 
 ## In plain terms
 
-This summary is not a substitute for the LICENSE file — refer to it for
+This summary is not a substitute for the HARD LICENSE file — refer to it for
 the legally binding terms.
 
 1. You may copy, modify, and Convey this hardware design, including for
