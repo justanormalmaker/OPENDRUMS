@@ -1,4 +1,4 @@
-# OPENDRUMS Firmware — License Notice
+# OPENDRUMS Firmware/Software — License Notice
 
 Copyright (c) 2026 OPENDRUMS Project Team (Giovanni Villani, Domenico Manta)
 
@@ -13,10 +13,13 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
 General Public License (in the LICENSE file) for more details.
 
 You should have received a copy of the GNU General Public License along
-with this program, in the LICENSE file. If not, see
+with this program, in the SOFT LICENSE file. If not, see
 <https://www.gnu.org/licenses/>.
 
 ## In plain terms
+
+This summary is not a substitute for the SOFT LICENSE file — refer to it for
+the legally binding terms.
 
 - You CAN use, modify, and distribute this code, including for commercial
   products.
