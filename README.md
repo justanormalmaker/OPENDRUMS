@@ -2,15 +2,17 @@
     
 > The portable Open-Source sample player/drum pads based on Arduino - [Website](https://opendrums.it)
 
-> [!WARNING]
-> You found a spoiler! The Team is working hard on a new version of OPENDRUMS... and more! Don't miss it when the time comes. Watch this repo and visit the [website](https://opendrums.vercel.app) to stay in the loop! In the meantime, the current version is fully open and ready to be hacked.
-
 [![code with hearth by JANM](https://img.shields.io/badge/Made_with%20%E2%99%A5%20by-JANM-ff1414.svg)](https://github.com/justanormalmaker) [![Hardware Version](https://img.shields.io/badge/Hardware-v1.0-00808f.svg)](https://github.com/justanormalmaker) [![Software Version](https://img.shields.io/badge/Software-v1.0-8a2be2.svg)](https://github.com/justanormalmaker) [![license](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/justanormalmaker/OPENDRUMS/blob/master/LICENSE) [![Instagram](https://img.shields.io/badge/Instagram-@opendrums.project-dd2a7b.svg)](https://www.instagram.com/opendrums.project)
 
 
 [![OPENDRUMS DEMO](https://github.com/user-attachments/assets/eaa29889-be5d-4f08-b569-18beffe555d9)](https://www.youtube.com/watch?v=3pwfQyi5qWA "OPENDRUMS video demo")
 
 Click on the image to see the video demo :)
+
+
+> [!WARNING]
+> You found a spoiler! The Team is working hard on a new version of OPENDRUMS... and more! Don't miss it when the time comes. Watch this repo and visit the [website](https://opendrums.vercel.app) to stay in the loop! In the meantime, the current version is fully open and ready to be hacked.
+
 
 
 ## 🚩 Table of Contents
