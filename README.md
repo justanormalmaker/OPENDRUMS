@@ -41,7 +41,7 @@ Because it's **Open-Source** and **Built with love**! You want to just build the
 
 * **Compact size** - *100x90 mm* or *3,94x3,54 in*
 * **9 progammable buttons** - *Buttons that can be programmed to play any sample*
-* **OLED screen** - *For programming the button*
+* **OLED screen** - *For programming the buttons*
 * **Integrated speaker**
 * **2 3.5mm headphones jacks**
 * **Rechargeable battery**
